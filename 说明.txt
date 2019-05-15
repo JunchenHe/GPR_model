@@ -1,0 +1,23 @@
+本目录包含多个文件
+其中
+	err.py
+		包含
+			计算rmse和平均误差率的函数，
+			保存errorbar图片的函数
+
+	get_data.py
+		包含：
+			三个类，data，train,test
+			由data类读取文件数据，
+				数据保存在data文件夹下的data.txt
+				这里前52组数据是训练数据，后19组数据是测试数据
+			train和test类
+				包含对数据进行预处理的函数
+
+
+
+	function_fitting文件夹：
+		是传统的函数拟合方法构建的胸径反演模型
+
+	gaussian_process文件夹：
+		是使用高斯过程回归技术构建的胸径反演模型

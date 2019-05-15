@@ -1,0 +1,211 @@
+kernel		input_dim			train_num	train_rmse	test_rmse	avg_err		log-likelihood	model
+
+Bias      	_1面积(CA)_2树高(CH)         	5		2.4124676164	1.7088007491	0.0750718436	-7.0946985435	bias.variance: 2.35099081411e-06	Gaussian_noise.variance: 0.999999952932	
+Bias      	_1面积(CA)_2树高(CH)         	10		2.5803746498	1.6170532184	0.0794836104	-14.1893970867	bias.variance: 2.35094048716e-06	Gaussian_noise.variance: 1.00000851736	
+Bias      	_1面积(CA)_2树高(CH)         	15		2.4755566954	1.6274277212	0.0808425630	-21.2840956296	bias.variance: 2.35089016295e-06	Gaussian_noise.variance: 1.00000851708	
+Bias      	_1面积(CA)_2树高(CH)         	20		2.3180016348	1.6670745334	0.0834947126	-28.3787941721	bias.variance: 2.35083984148e-06	Gaussian_noise.variance: 1.00000851679	
+Bias      	_1面积(CA)_2树高(CH)         	25		2.3488507828	1.8225088934	0.0893840356	-35.4734927143	bias.variance: 2.35078952275e-06	Gaussian_noise.variance: 1.00000851651	
+Bias      	_1面积(CA)_2树高(CH)         	30		2.3117888779	1.9052234890	0.0924139080	-42.5681912562	bias.variance: 2.35073920675e-06	Gaussian_noise.variance: 1.00000851623	
+Bias      	_1面积(CA)_2树高(CH)         	35		2.2406369143	1.8811752731	0.0915732704	-49.6628897978	bias.variance: 2.35068889348e-06	Gaussian_noise.variance: 1.00000851595	
+Bias      	_1面积(CA)_2树高(CH)         	40		2.1757109065	1.8484509280	0.0903793862	-56.7575883391	bias.variance: 2.35063858295e-06	Gaussian_noise.variance: 1.00000851567	
+Bias      	_1面积(CA)_2树高(CH)         	45		2.2069747107	1.8616843414	0.0908697581	-63.8522868800	bias.variance: 2.35058827516e-06	Gaussian_noise.variance: 1.00000851539	
+Bias      	_1面积(CA)_2树高(CH)         	52		2.2258211493	1.8148170085	0.0890792184	-73.7848648373	bias.variance: 2.35053797033e-06	Gaussian_noise.variance: 1.00000851506	
+
+Exponential	_1面积(CA)_2树高(CH)         	5		1.4409751091	1.7074216084	0.0748616575	-7.0946926764	Exponential.variance: 0.402699106521	Exponential.lengthscale: 0.0389684235902	Gaussian_noise.variance: 0.59730678706	
+Exponential	_1面积(CA)_2树高(CH)         	10		0.0427202780	1.1351282351	0.0552447152	-10.0984323211	Exponential.variance: 1.12639972773	Exponential.lengthscale: 1.93477688034	Gaussian_noise.variance: 0.00703917194293	
+Exponential	_1面积(CA)_2树高(CH)         	15		0.4308451198	1.2121899327	0.0577187558	-15.4393271998	Exponential.variance: 1.34996837471	Exponential.lengthscale: 3.60508350798	Gaussian_noise.variance: 0.0936772740999	
+Exponential	_1面积(CA)_2树高(CH)         	20		0.4695573975	1.1406737707	0.0541074079	-18.8838559256	Exponential.variance: 1.7040245737	Exponential.lengthscale: 6.22946205523	Gaussian_noise.variance: 0.102022993879	
+Exponential	_1面积(CA)_2树高(CH)         	25		0.4383220104	1.1297783247	0.0517329045	-23.3949645552	Exponential.variance: 1.78180394639	Exponential.lengthscale: 5.2804791545	Gaussian_noise.variance: 0.0926764825357	
+Exponential	_1面积(CA)_2树高(CH)         	30		0.5801947521	1.0366900480	0.0495856522	-29.2633869672	Exponential.variance: 1.78797115359	Exponential.lengthscale: 5.46889777365	Gaussian_noise.variance: 0.134206303371	
+Exponential	_1面积(CA)_2树高(CH)         	35		0.7188809577	0.9814438777	0.0459884600	-33.3520978866	Exponential.variance: 1.99857278997	Exponential.lengthscale: 8.84433640567	Gaussian_noise.variance: 0.174005770492	
+Exponential	_1面积(CA)_2树高(CH)         	40		0.7662636028	0.9460361930	0.0452293528	-38.4187688753	Exponential.variance: 1.95222104482	Exponential.lengthscale: 9.21633773829	Gaussian_noise.variance: 0.195393880132	
+Exponential	_1面积(CA)_2树高(CH)         	45		0.7522148391	0.8875247058	0.0413951472	-41.0347234354	Exponential.variance: 2.19884530578	Exponential.lengthscale: 11.2545846545	Gaussian_noise.variance: 0.180632538503	
+Exponential	_1面积(CA)_2树高(CH)         	52		0.7580938210	0.8724534369	0.0375984151	-45.0015345496	Exponential.variance: 2.17277537665	Exponential.lengthscale: 12.1664227722	Gaussian_noise.variance: 0.173995556365	
+
+ExpQuad   	_1面积(CA)_2树高(CH)         	5		0.0000009838	1.4203524934	0.0603278703	-7.0186496907	ExpQuad.variance: 1.28709464179	ExpQuad.lengthscale: 0.764891292021	Gaussian_noise.variance: 3.44533961787e-07	
+ExpQuad   	_1面积(CA)_2树高(CH)         	10		0.7225156987	1.4490028753	0.0645990968	-10.0673790372	ExpQuad.variance: 1.66920598983	ExpQuad.lengthscale: 1.921084061	Gaussian_noise.variance: 0.133386286378	
+ExpQuad   	_1面积(CA)_2树高(CH)         	15		0.9233386696	1.2556275928	0.0582478591	-14.2988886970	ExpQuad.variance: 1.44278654127	ExpQuad.lengthscale: 2.2828196571	Gaussian_noise.variance: 0.189147196859	
+ExpQuad   	_1面积(CA)_2树高(CH)         	20		0.8436539373	1.1683813174	0.0544638744	-16.9063466487	ExpQuad.variance: 1.62130654206	ExpQuad.lengthscale: 2.66864083759	Gaussian_noise.variance: 0.168789646243	
+ExpQuad   	_1面积(CA)_2树高(CH)         	25		0.9784823159	1.0946777084	0.0524705268	-21.7828018550	ExpQuad.variance: 2.1903309161	ExpQuad.lengthscale: 3.4842646547	Gaussian_noise.variance: 0.205674113052	
+ExpQuad   	_1面积(CA)_2树高(CH)         	30		1.0717421575	1.1116563638	0.0538965009	-27.6901326277	ExpQuad.variance: 2.15631861598	ExpQuad.lengthscale: 3.55587785467	Gaussian_noise.variance: 0.247496587887	
+ExpQuad   	_1面积(CA)_2树高(CH)         	35		1.0156087054	1.0254644456	0.0483669133	-30.9501303703	ExpQuad.variance: 2.28843884213	ExpQuad.lengthscale: 3.55259178026	Gaussian_noise.variance: 0.233726089726	
+ExpQuad   	_1面积(CA)_2树高(CH)         	40		1.0414060511	0.9724145577	0.0463139805	-36.1197105849	ExpQuad.variance: 2.27670519915	ExpQuad.lengthscale: 3.82509445428	Gaussian_noise.variance: 0.255840206817	
+ExpQuad   	_1面积(CA)_2树高(CH)         	45		1.0071511935	0.9382246499	0.0433144058	-38.0271547000	ExpQuad.variance: 2.53594221429	ExpQuad.lengthscale: 3.92773481399	Gaussian_noise.variance: 0.230473427355	
+ExpQuad   	_1面积(CA)_2树高(CH)         	52		0.9920903344	0.9226536760	0.0408319689	-41.7658813909	ExpQuad.variance: 2.17388279929	ExpQuad.lengthscale: 3.6151738946	Gaussian_noise.variance: 0.217907278394	
+
+GridRBF   	_1面积(CA)_2树高(CH)         	5		0.0000009838	1.4203524934	0.0603278703	-7.0186496907	gridRBF.variance: 1.28709464179	gridRBF.lengthscale: 0.764891292021	Gaussian_noise.variance: 3.44533961787e-07	
+GridRBF   	_1面积(CA)_2树高(CH)         	10		0.7225156987	1.4490028753	0.0645990968	-10.0673790372	gridRBF.variance: 1.66920598983	gridRBF.lengthscale: 1.921084061	Gaussian_noise.variance: 0.133386286378	
+GridRBF   	_1面积(CA)_2树高(CH)         	15		0.9233386696	1.2556275928	0.0582478591	-14.2988886970	gridRBF.variance: 1.44278654127	gridRBF.lengthscale: 2.2828196571	Gaussian_noise.variance: 0.189147196859	
+GridRBF   	_1面积(CA)_2树高(CH)         	20		0.8436539373	1.1683813174	0.0544638744	-16.9063466487	gridRBF.variance: 1.62130654206	gridRBF.lengthscale: 2.66864083759	Gaussian_noise.variance: 0.168789646243	
+GridRBF   	_1面积(CA)_2树高(CH)         	25		0.9784823159	1.0946777084	0.0524705268	-21.7828018550	gridRBF.variance: 2.1903309161	gridRBF.lengthscale: 3.4842646547	Gaussian_noise.variance: 0.205674113052	
+GridRBF   	_1面积(CA)_2树高(CH)         	30		1.0717421575	1.1116563638	0.0538965009	-27.6901326277	gridRBF.variance: 2.15631861598	gridRBF.lengthscale: 3.55587785467	Gaussian_noise.variance: 0.247496587887	
+GridRBF   	_1面积(CA)_2树高(CH)         	35		1.0156087054	1.0254644456	0.0483669133	-30.9501303703	gridRBF.variance: 2.28843884213	gridRBF.lengthscale: 3.55259178026	Gaussian_noise.variance: 0.233726089726	
+GridRBF   	_1面积(CA)_2树高(CH)         	40		1.0414060511	0.9724145577	0.0463139805	-36.1197105849	gridRBF.variance: 2.27670519915	gridRBF.lengthscale: 3.82509445428	Gaussian_noise.variance: 0.255840206817	
+GridRBF   	_1面积(CA)_2树高(CH)         	45		1.0071511935	0.9382246499	0.0433144058	-38.0271547000	gridRBF.variance: 2.53594221429	gridRBF.lengthscale: 3.92773481399	Gaussian_noise.variance: 0.230473427355	
+GridRBF   	_1面积(CA)_2树高(CH)         	52		0.9920903344	0.9226536760	0.0408319689	-41.7658813909	gridRBF.variance: 2.17388279929	gridRBF.lengthscale: 3.6151738946	Gaussian_noise.variance: 0.217907278394	
+
+Linear    	_1面积(CA)_2树高(CH)         	5		1.1975837642	0.9049848822	0.0438187270	-5.5326607422	linear.variances: 0.278907540703	Gaussian_noise.variance: 0.321442736987	
+Linear    	_1面积(CA)_2树高(CH)         	10		1.0746750332	1.1140906783	0.0520642314	-8.5986916027	linear.variances: 0.303321209643	Gaussian_noise.variance: 0.208002257617	
+Linear    	_1面积(CA)_2树高(CH)         	15		1.0987536614	1.0836236587	0.0522937623	-12.4662700339	linear.variances: 0.264816699458	Gaussian_noise.variance: 0.222521626238	
+Linear    	_1面积(CA)_2树高(CH)         	20		1.0041641807	0.9974711512	0.0466500390	-15.4054118972	linear.variances: 0.266330744069	Gaussian_noise.variance: 0.206293113156	
+Linear    	_1面积(CA)_2树高(CH)         	25		1.0351806992	1.0088894301	0.0472875700	-18.9489841492	linear.variances: 0.263197284699	Gaussian_noise.variance: 0.2096684289	
+Linear    	_1面积(CA)_2树高(CH)         	30		1.1201191297	1.0786517268	0.0530727538	-24.7364782788	linear.variances: 0.230015087142	Gaussian_noise.variance: 0.250145268668	
+Linear    	_1面积(CA)_2树高(CH)         	35		1.0699440941	1.0235300262	0.0497120337	-28.0292078162	linear.variances: 0.238864973079	Gaussian_noise.variance: 0.241078323639	
+Linear    	_1面积(CA)_2树高(CH)         	40		1.0731000856	0.9672179716	0.0457852526	-32.8172928870	linear.variances: 0.238756650096	Gaussian_noise.variance: 0.255438943146	
+Linear    	_1面积(CA)_2树高(CH)         	45		1.0461395546	0.9293230167	0.0424383478	-34.8425440162	linear.variances: 0.252848969523	Gaussian_noise.variance: 0.234737283563	
+Linear    	_1面积(CA)_2树高(CH)         	52		1.0370887382	0.9151715588	0.0406792206	-38.8333053965	linear.variances: 0.259169428311	Gaussian_noise.variance: 0.225491302606	
+
+Matern32  	_1面积(CA)_2树高(CH)         	5		0.0000121607	1.3508828744	0.0564217742	-7.0700871118	Mat32.variance: 1.23132335846	Mat32.lengthscale: 0.857994771533	Gaussian_noise.variance: 4.62288763128e-06	
+Matern32  	_1面积(CA)_2树高(CH)         	10		0.2044975500	1.1034860457	0.0528631771	-10.0339368224	Mat32.variance: 0.978645731966	Mat32.lengthscale: 0.919256866712	Gaussian_noise.variance: 0.0325838879309	
+Matern32  	_1面积(CA)_2树高(CH)         	15		0.8661700672	1.2428473077	0.0582167897	-14.8336941942	Mat32.variance: 1.58120486665	Mat32.lengthscale: 3.23049509904	Gaussian_noise.variance: 0.183546697398	
+Matern32  	_1面积(CA)_2树高(CH)         	20		0.8228692922	1.1559741014	0.0540184183	-17.6753582436	Mat32.variance: 2.38800829937	Mat32.lengthscale: 5.02810092719	Gaussian_noise.variance: 0.170302315269	
+Matern32  	_1面积(CA)_2树高(CH)         	25		0.9602572097	1.1020118941	0.0523230480	-22.5683619818	Mat32.variance: 3.38269972292	Mat32.lengthscale: 6.8298407426	Gaussian_noise.variance: 0.206802819384	
+Matern32  	_1面积(CA)_2树高(CH)         	30		1.0499638965	1.0990657199	0.0530638924	-28.4619563342	Mat32.variance: 3.04460892752	Mat32.lengthscale: 6.51766456403	Gaussian_noise.variance: 0.247347954767	
+Matern32  	_1面积(CA)_2树高(CH)         	35		0.9920424264	1.0145032066	0.0476638249	-31.7649976879	Mat32.variance: 3.31813329924	Mat32.lengthscale: 6.69612716893	Gaussian_noise.variance: 0.23233492255	
+Matern32  	_1面积(CA)_2树高(CH)         	40		1.0149709272	0.9614011574	0.0458595136	-36.8871918622	Mat32.variance: 3.2609114384	Mat32.lengthscale: 7.00535915339	Gaussian_noise.variance: 0.252445523374	
+Matern32  	_1面积(CA)_2树高(CH)         	45		0.9927480302	0.9260183438	0.0427215326	-38.9538314771	Mat32.variance: 4.86469619586	Mat32.lengthscale: 8.9561688284	Gaussian_noise.variance: 0.230264839092	
+Matern32  	_1面积(CA)_2树高(CH)         	52		0.9736409188	0.9078891426	0.0398685124	-42.6557077669	Mat32.variance: 4.16041325496	Mat32.lengthscale: 8.12494774297	Gaussian_noise.variance: 0.215975714362	
+
+Matern52  	_1面积(CA)_2树高(CH)         	5		0.0001650292	1.3683172325	0.0572159874	-7.0527644947	Mat52.variance: 1.25379899642	Mat52.lengthscale: 0.826796198419	Gaussian_noise.variance: 6.17365202185e-05	
+Matern52  	_1面积(CA)_2树高(CH)         	10		0.6265202600	1.3507877888	0.0622643140	-10.2277907859	Mat52.variance: 1.28766533947	Mat52.lengthscale: 1.76594716815	Gaussian_noise.variance: 0.119553478127	
+Matern52  	_1面积(CA)_2树高(CH)         	15		0.9124162843	1.2493496238	0.0582225128	-14.6361805519	Mat52.variance: 1.61752561654	Mat52.lengthscale: 2.97769510895	Gaussian_noise.variance: 0.190983159767	
+Matern52  	_1面积(CA)_2树高(CH)         	20		0.8413950797	1.1600909973	0.0539555945	-17.3284706191	Mat52.variance: 2.14030959951	Mat52.lengthscale: 3.96032078685	Gaussian_noise.variance: 0.171299094405	
+Matern52  	_1面积(CA)_2树高(CH)         	25		0.9765634782	1.0947503002	0.0521702877	-22.1879293165	Mat52.variance: 3.13249324681	Mat52.lengthscale: 5.4110055672	Gaussian_noise.variance: 0.207398661915	
+Matern52  	_1面积(CA)_2树高(CH)         	30		1.0707039939	1.1063763183	0.0536419404	-28.1072242506	Mat52.variance: 2.95597554385	Mat52.lengthscale: 5.40661292074	Gaussian_noise.variance: 0.249694757343	
+Matern52  	_1面积(CA)_2树高(CH)         	35		1.0129380035	1.0212434282	0.0482059581	-31.3908625764	Mat52.variance: 3.1079377426	Mat52.lengthscale: 5.38855131134	Gaussian_noise.variance: 0.235258457817	
+Matern52  	_1面积(CA)_2树高(CH)         	40		1.0371019299	0.9683986570	0.0461580293	-36.5405591133	Mat52.variance: 3.17132081033	Mat52.lengthscale: 5.82052230085	Gaussian_noise.variance: 0.256410884496	
+Matern52  	_1面积(CA)_2树高(CH)         	45		1.0058331650	0.9356950373	0.0431203487	-38.4897929843	Mat52.variance: 4.04090256023	Mat52.lengthscale: 6.5058634093	Gaussian_noise.variance: 0.231506538232	
+Matern52  	_1面积(CA)_2树高(CH)         	52		0.9885506460	0.9182132267	0.0404955813	-42.2245818530	Mat52.variance: 3.35388288203	Mat52.lengthscale: 5.85286089204	Gaussian_noise.variance: 0.218170728622	
+
+MLP       	_1面积(CA)_2树高(CH)         	5		1.1975932766	0.9049885484	0.0438190098	-5.5326643595	mlp.variance: 25676.9485766	mlp.weight_variance: 1.706012668e-05	mlp.bias_variance: 5.56268464627e-309	Gaussian_noise.variance: 0.321458658308	
+MLP       	_1面积(CA)_2树高(CH)         	10		1.0746573481	1.1140923525	0.0520639468	-8.5985919180	mlp.variance: 25676.9485799	mlp.weight_variance: 1.85593264474e-05	mlp.bias_variance: 5.56268464627e-309	Gaussian_noise.variance: 0.207996197339	
+MLP       	_1面积(CA)_2树高(CH)         	15		1.0987412823	1.0836243668	0.0522934813	-12.4661433469	mlp.variance: 25676.9485746	mlp.weight_variance: 1.62036335813e-05	mlp.bias_variance: 5.56268464627e-309	Gaussian_noise.variance: 0.222517297479	
+MLP       	_1面积(CA)_2树高(CH)         	20		1.0041507904	0.9974682094	0.0466496758	-15.4051964114	mlp.variance: 25676.9485748	mlp.weight_variance: 1.62977059511e-05	mlp.bias_variance: 5.56268464627e-309	Gaussian_noise.variance: 0.206288062677	
+MLP       	_1面积(CA)_2树高(CH)         	25		1.0351773994	1.0088898222	0.0472877702	-18.9489120372	mlp.variance: 25676.9485743	mlp.weight_variance: 1.61032388103e-05	mlp.bias_variance: 5.56268464627e-309	Gaussian_noise.variance: 0.209667221367	
+MLP       	_1面积(CA)_2树高(CH)         	30		1.1201155758	1.0786505864	0.0530725882	-24.7364037681	mlp.variance: 25676.948569	mlp.weight_variance: 1.40731566416e-05	mlp.bias_variance: 5.56268464627e-309	Gaussian_noise.variance: 0.250143767077	
+MLP       	_1面积(CA)_2树高(CH)         	35		1.0699387532	1.0235250418	0.0497116258	-28.0290615394	mlp.variance: 25676.9485705	mlp.weight_variance: 1.46161983802e-05	mlp.bias_variance: 5.56268464627e-309	Gaussian_noise.variance: 0.241076945088	
+MLP       	_1面积(CA)_2树高(CH)         	40		1.0730956772	0.9672124285	0.0457850177	-32.8171405116	mlp.variance: 25676.9485705	mlp.weight_variance: 1.46065540309e-05	mlp.bias_variance: 5.56268464627e-309	Gaussian_noise.variance: 0.255436843618	
+MLP       	_1面积(CA)_2树高(CH)         	45		1.0461378015	0.9293130346	0.0424375792	-34.8424770804	mlp.variance: 25676.9485727	mlp.weight_variance: 1.54701361429e-05	mlp.bias_variance: 5.56268464627e-309	Gaussian_noise.variance: 0.234736657641	
+MLP       	_1面积(CA)_2树高(CH)         	52		1.0370848929	0.9151620811	0.0406783943	-38.8331276969	mlp.variance: 25676.9485737	mlp.weight_variance: 1.58592017504e-05	mlp.bias_variance: 5.56268464627e-309	Gaussian_noise.variance: 0.225488316836	
+
+OU        	_1面积(CA)_2树高(CH)         	5		1.4409751091	1.7074216084	0.0748616575	-7.0946926764	OU.variance: 0.402699106521	OU.lengthscale: 0.0389684235902	Gaussian_noise.variance: 0.59730678706	
+OU        	_1面积(CA)_2树高(CH)         	10		0.0427202780	1.1351282351	0.0552447152	-10.0984323211	OU.variance: 1.12639972773	OU.lengthscale: 1.93477688034	Gaussian_noise.variance: 0.00703917194293	
+OU        	_1面积(CA)_2树高(CH)         	15		0.4308451198	1.2121899327	0.0577187558	-15.4393271998	OU.variance: 1.34996837471	OU.lengthscale: 3.60508350798	Gaussian_noise.variance: 0.0936772740999	
+OU        	_1面积(CA)_2树高(CH)         	20		0.4695573975	1.1406737707	0.0541074079	-18.8838559256	OU.variance: 1.7040245737	OU.lengthscale: 6.22946205523	Gaussian_noise.variance: 0.102022993879	
+OU        	_1面积(CA)_2树高(CH)         	25		0.4383220104	1.1297783247	0.0517329045	-23.3949645552	OU.variance: 1.78180394639	OU.lengthscale: 5.2804791545	Gaussian_noise.variance: 0.0926764825357	
+OU        	_1面积(CA)_2树高(CH)         	30		0.5801947521	1.0366900480	0.0495856522	-29.2633869672	OU.variance: 1.78797115359	OU.lengthscale: 5.46889777365	Gaussian_noise.variance: 0.134206303371	
+OU        	_1面积(CA)_2树高(CH)         	35		0.7188809577	0.9814438777	0.0459884600	-33.3520978866	OU.variance: 1.99857278997	OU.lengthscale: 8.84433640567	Gaussian_noise.variance: 0.174005770492	
+OU        	_1面积(CA)_2树高(CH)         	40		0.7662636028	0.9460361930	0.0452293528	-38.4187688753	OU.variance: 1.95222104482	OU.lengthscale: 9.21633773829	Gaussian_noise.variance: 0.195393880132	
+OU        	_1面积(CA)_2树高(CH)         	45		0.7522148391	0.8875247058	0.0413951472	-41.0347234354	OU.variance: 2.19884530578	OU.lengthscale: 11.2545846545	Gaussian_noise.variance: 0.180632538503	
+OU        	_1面积(CA)_2树高(CH)         	52		0.7580938210	0.8724534369	0.0375984151	-45.0015345496	OU.variance: 2.17277537665	OU.lengthscale: 12.1664227722	Gaussian_noise.variance: 0.173995556365	
+
+Poly      	_1面积(CA)_2树高(CH)         	5		1.0527293628	1.2799305246	0.0565411962	-5.5482835895	poly.variance: 0.283047910994	poly.scale: 0.399393628937	poly.bias: 0.0328812324128	Gaussian_noise.variance: 0.268532920929	
+Poly      	_1面积(CA)_2树高(CH)         	10		1.6335637113	1.3564667771	0.0681377080	-11.6547471728	poly.variance: 0.0113067202373	poly.scale: 1.03799245916	poly.bias: 1.14340764736e-07	Gaussian_noise.variance: 0.459606263507	
+Poly      	_1面积(CA)_2树高(CH)         	15		1.5956056209	1.3837027589	0.0687027392	-17.1963232731	poly.variance: 0.010593811676	poly.scale: 0.960740742742	poly.bias: 1.14340735769e-07	Gaussian_noise.variance: 0.462384692373	
+Poly      	_1面积(CA)_2树高(CH)         	20		1.5372216934	1.4353570194	0.0725468488	-23.0641031267	poly.variance: 0.0115167410651	poly.scale: 1.06351563549	poly.bias: 1.14340774161e-07	Gaussian_noise.variance: 0.477103456055	
+Poly      	_1面积(CA)_2树高(CH)         	25		1.2362666232	1.5242226073	0.0667023775	-25.6425891952	poly.variance: 0.0187463820015	poly.scale: 1.68933657016	poly.bias: 1.14340127302e-07	Gaussian_noise.variance: 0.31045747485	
+Poly      	_1面积(CA)_2树高(CH)         	30		1.2539096697	2.4197016551	0.0830164708	-31.5506383418	poly.variance: 0.0196379432632	poly.scale: 1.74690941254	poly.bias: 1.14339520844e-07	Gaussian_noise.variance: 0.328165415695	
+Poly      	_1面积(CA)_2树高(CH)         	35		1.3162531417	1.6660603425	0.0720482850	-37.8801452818	poly.variance: 0.0164147123856	poly.scale: 1.53164630185	poly.bias: 1.14339259879e-07	Gaussian_noise.variance: 0.378552153619	
+Poly      	_1面积(CA)_2树高(CH)         	40		1.3782485198	1.3435345464	0.0657426854	-44.5073487548	poly.variance: 0.0129351791872	poly.scale: 1.24202515842	poly.bias: 1.14339062731e-07	Gaussian_noise.variance: 0.432326361659	
+Poly      	_1面积(CA)_2树高(CH)         	45		1.3224529686	1.3627616496	0.0655777214	-47.1234026894	poly.variance: 0.0134450429532	poly.scale: 1.29060205047	poly.bias: 1.14338805697e-07	Gaussian_noise.variance: 0.38477636036	
+Poly      	_1面积(CA)_2树高(CH)         	52		1.3940240783	1.3409892717	0.0644600414	-55.5654928897	poly.variance: 0.0130780202932	poly.scale: 1.25672706506	poly.bias: 1.14338540645e-07	Gaussian_noise.variance: 0.41577553863	
+
+RBF       	_1面积(CA)_2树高(CH)         	5		0.0000009838	1.4203524934	0.0603278703	-7.0186496907	rbf.variance: 1.28709464179	rbf.lengthscale: 0.764891292021	Gaussian_noise.variance: 3.44533961787e-07	
+RBF       	_1面积(CA)_2树高(CH)         	10		0.7225156987	1.4490028753	0.0645990968	-10.0673790372	rbf.variance: 1.66920598983	rbf.lengthscale: 1.921084061	Gaussian_noise.variance: 0.133386286378	
+RBF       	_1面积(CA)_2树高(CH)         	15		0.9233386696	1.2556275928	0.0582478591	-14.2988886970	rbf.variance: 1.44278654127	rbf.lengthscale: 2.2828196571	Gaussian_noise.variance: 0.189147196859	
+RBF       	_1面积(CA)_2树高(CH)         	20		0.8436539373	1.1683813174	0.0544638744	-16.9063466487	rbf.variance: 1.62130654206	rbf.lengthscale: 2.66864083759	Gaussian_noise.variance: 0.168789646243	
+RBF       	_1面积(CA)_2树高(CH)         	25		0.9784823159	1.0946777084	0.0524705268	-21.7828018550	rbf.variance: 2.1903309161	rbf.lengthscale: 3.4842646547	Gaussian_noise.variance: 0.205674113052	
+RBF       	_1面积(CA)_2树高(CH)         	30		1.0717421575	1.1116563638	0.0538965009	-27.6901326277	rbf.variance: 2.15631861598	rbf.lengthscale: 3.55587785467	Gaussian_noise.variance: 0.247496587887	
+RBF       	_1面积(CA)_2树高(CH)         	35		1.0156087054	1.0254644456	0.0483669133	-30.9501303703	rbf.variance: 2.28843884213	rbf.lengthscale: 3.55259178026	Gaussian_noise.variance: 0.233726089726	
+RBF       	_1面积(CA)_2树高(CH)         	40		1.0414060511	0.9724145577	0.0463139805	-36.1197105849	rbf.variance: 2.27670519915	rbf.lengthscale: 3.82509445428	Gaussian_noise.variance: 0.255840206817	
+RBF       	_1面积(CA)_2树高(CH)         	45		1.0071511935	0.9382246499	0.0433144058	-38.0271547000	rbf.variance: 2.53594221429	rbf.lengthscale: 3.92773481399	Gaussian_noise.variance: 0.230473427355	
+RBF       	_1面积(CA)_2树高(CH)         	52		0.9920903344	0.9226536760	0.0408319689	-41.7658813909	rbf.variance: 2.17388279929	rbf.lengthscale: 3.6151738946	Gaussian_noise.variance: 0.217907278394	
+
+sde_Bias  	_1面积(CA)_2树高(CH)         	5		2.4124676164	1.7088007491	0.0750718436	-7.0946985435	bias.variance: 2.35099081411e-06	Gaussian_noise.variance: 0.999999952932	
+sde_Bias  	_1面积(CA)_2树高(CH)         	10		2.5803746498	1.6170532184	0.0794836104	-14.1893970867	bias.variance: 2.35094048716e-06	Gaussian_noise.variance: 1.00000851736	
+sde_Bias  	_1面积(CA)_2树高(CH)         	15		2.4755566954	1.6274277212	0.0808425630	-21.2840956296	bias.variance: 2.35089016295e-06	Gaussian_noise.variance: 1.00000851708	
+sde_Bias  	_1面积(CA)_2树高(CH)         	20		2.3180016348	1.6670745334	0.0834947126	-28.3787941721	bias.variance: 2.35083984148e-06	Gaussian_noise.variance: 1.00000851679	
+sde_Bias  	_1面积(CA)_2树高(CH)         	25		2.3488507828	1.8225088934	0.0893840356	-35.4734927143	bias.variance: 2.35078952275e-06	Gaussian_noise.variance: 1.00000851651	
+sde_Bias  	_1面积(CA)_2树高(CH)         	30		2.3117888779	1.9052234890	0.0924139080	-42.5681912562	bias.variance: 2.35073920675e-06	Gaussian_noise.variance: 1.00000851623	
+sde_Bias  	_1面积(CA)_2树高(CH)         	35		2.2406369143	1.8811752731	0.0915732704	-49.6628897978	bias.variance: 2.35068889348e-06	Gaussian_noise.variance: 1.00000851595	
+sde_Bias  	_1面积(CA)_2树高(CH)         	40		2.1757109065	1.8484509280	0.0903793862	-56.7575883391	bias.variance: 2.35063858295e-06	Gaussian_noise.variance: 1.00000851567	
+sde_Bias  	_1面积(CA)_2树高(CH)         	45		2.2069747107	1.8616843414	0.0908697581	-63.8522868800	bias.variance: 2.35058827516e-06	Gaussian_noise.variance: 1.00000851539	
+sde_Bias  	_1面积(CA)_2树高(CH)         	52		2.2258211493	1.8148170085	0.0890792184	-73.7848648373	bias.variance: 2.35053797033e-06	Gaussian_noise.variance: 1.00000851506	
+
+sde_Exponential	_1面积(CA)_2树高(CH)         	5		1.4409751091	1.7074216084	0.0748616575	-7.0946926764	Exponential.variance: 0.402699106521	Exponential.lengthscale: 0.0389684235902	Gaussian_noise.variance: 0.59730678706	
+sde_Exponential	_1面积(CA)_2树高(CH)         	10		0.0427202780	1.1351282351	0.0552447152	-10.0984323211	Exponential.variance: 1.12639972773	Exponential.lengthscale: 1.93477688034	Gaussian_noise.variance: 0.00703917194293	
+sde_Exponential	_1面积(CA)_2树高(CH)         	15		0.4308451198	1.2121899327	0.0577187558	-15.4393271998	Exponential.variance: 1.34996837471	Exponential.lengthscale: 3.60508350798	Gaussian_noise.variance: 0.0936772740999	
+sde_Exponential	_1面积(CA)_2树高(CH)         	20		0.4695573975	1.1406737707	0.0541074079	-18.8838559256	Exponential.variance: 1.7040245737	Exponential.lengthscale: 6.22946205523	Gaussian_noise.variance: 0.102022993879	
+sde_Exponential	_1面积(CA)_2树高(CH)         	25		0.4383220104	1.1297783247	0.0517329045	-23.3949645552	Exponential.variance: 1.78180394639	Exponential.lengthscale: 5.2804791545	Gaussian_noise.variance: 0.0926764825357	
+sde_Exponential	_1面积(CA)_2树高(CH)         	30		0.5801947521	1.0366900480	0.0495856522	-29.2633869672	Exponential.variance: 1.78797115359	Exponential.lengthscale: 5.46889777365	Gaussian_noise.variance: 0.134206303371	
+sde_Exponential	_1面积(CA)_2树高(CH)         	35		0.7188809577	0.9814438777	0.0459884600	-33.3520978866	Exponential.variance: 1.99857278997	Exponential.lengthscale: 8.84433640567	Gaussian_noise.variance: 0.174005770492	
+sde_Exponential	_1面积(CA)_2树高(CH)         	40		0.7662636028	0.9460361930	0.0452293528	-38.4187688753	Exponential.variance: 1.95222104482	Exponential.lengthscale: 9.21633773829	Gaussian_noise.variance: 0.195393880132	
+sde_Exponential	_1面积(CA)_2树高(CH)         	45		0.7522148391	0.8875247058	0.0413951472	-41.0347234354	Exponential.variance: 2.19884530578	Exponential.lengthscale: 11.2545846545	Gaussian_noise.variance: 0.180632538503	
+sde_Exponential	_1面积(CA)_2树高(CH)         	52		0.7580938210	0.8724534369	0.0375984151	-45.0015345496	Exponential.variance: 2.17277537665	Exponential.lengthscale: 12.1664227722	Gaussian_noise.variance: 0.173995556365	
+
+sde_Matern32	_1面积(CA)_2树高(CH)         	5		0.0000121607	1.3508828744	0.0564217742	-7.0700871118	Mat32.variance: 1.23132335846	Mat32.lengthscale: 0.857994771533	Gaussian_noise.variance: 4.62288763128e-06	
+sde_Matern32	_1面积(CA)_2树高(CH)         	10		0.2044975500	1.1034860457	0.0528631771	-10.0339368224	Mat32.variance: 0.978645731966	Mat32.lengthscale: 0.919256866712	Gaussian_noise.variance: 0.0325838879309	
+sde_Matern32	_1面积(CA)_2树高(CH)         	15		0.8661700672	1.2428473077	0.0582167897	-14.8336941942	Mat32.variance: 1.58120486665	Mat32.lengthscale: 3.23049509904	Gaussian_noise.variance: 0.183546697398	
+sde_Matern32	_1面积(CA)_2树高(CH)         	20		0.8228692922	1.1559741014	0.0540184183	-17.6753582436	Mat32.variance: 2.38800829937	Mat32.lengthscale: 5.02810092719	Gaussian_noise.variance: 0.170302315269	
+sde_Matern32	_1面积(CA)_2树高(CH)         	25		0.9602572097	1.1020118941	0.0523230480	-22.5683619818	Mat32.variance: 3.38269972292	Mat32.lengthscale: 6.8298407426	Gaussian_noise.variance: 0.206802819384	
+sde_Matern32	_1面积(CA)_2树高(CH)         	30		1.0499638965	1.0990657199	0.0530638924	-28.4619563342	Mat32.variance: 3.04460892752	Mat32.lengthscale: 6.51766456403	Gaussian_noise.variance: 0.247347954767	
+sde_Matern32	_1面积(CA)_2树高(CH)         	35		0.9920424264	1.0145032066	0.0476638249	-31.7649976879	Mat32.variance: 3.31813329924	Mat32.lengthscale: 6.69612716893	Gaussian_noise.variance: 0.23233492255	
+sde_Matern32	_1面积(CA)_2树高(CH)         	40		1.0149709272	0.9614011574	0.0458595136	-36.8871918622	Mat32.variance: 3.2609114384	Mat32.lengthscale: 7.00535915339	Gaussian_noise.variance: 0.252445523374	
+sde_Matern32	_1面积(CA)_2树高(CH)         	45		0.9927480302	0.9260183438	0.0427215326	-38.9538314771	Mat32.variance: 4.86469619586	Mat32.lengthscale: 8.9561688284	Gaussian_noise.variance: 0.230264839092	
+sde_Matern32	_1面积(CA)_2树高(CH)         	52		0.9736409188	0.9078891426	0.0398685124	-42.6557077669	Mat32.variance: 4.16041325234	Mat32.lengthscale: 8.1249477416	Gaussian_noise.variance: 0.215975714364	
+
+sde_Matern52	_1面积(CA)_2树高(CH)         	5		0.0001650292	1.3683172325	0.0572159874	-7.0527644947	Mat52.variance: 1.25379899642	Mat52.lengthscale: 0.826796198419	Gaussian_noise.variance: 6.17365202185e-05	
+sde_Matern52	_1面积(CA)_2树高(CH)         	10		0.6265202600	1.3507877888	0.0622643140	-10.2277907859	Mat52.variance: 1.28766533947	Mat52.lengthscale: 1.76594716815	Gaussian_noise.variance: 0.119553478127	
+sde_Matern52	_1面积(CA)_2树高(CH)         	15		0.9124162843	1.2493496238	0.0582225128	-14.6361805519	Mat52.variance: 1.61752561654	Mat52.lengthscale: 2.97769510895	Gaussian_noise.variance: 0.190983159767	
+sde_Matern52	_1面积(CA)_2树高(CH)         	20		0.8413950797	1.1600909973	0.0539555945	-17.3284706191	Mat52.variance: 2.14030959951	Mat52.lengthscale: 3.96032078685	Gaussian_noise.variance: 0.171299094405	
+sde_Matern52	_1面积(CA)_2树高(CH)         	25		0.9765634782	1.0947503002	0.0521702877	-22.1879293165	Mat52.variance: 3.13249324681	Mat52.lengthscale: 5.4110055672	Gaussian_noise.variance: 0.207398661915	
+sde_Matern52	_1面积(CA)_2树高(CH)         	30		1.0707039939	1.1063763183	0.0536419404	-28.1072242506	Mat52.variance: 2.95597554385	Mat52.lengthscale: 5.40661292074	Gaussian_noise.variance: 0.249694757343	
+sde_Matern52	_1面积(CA)_2树高(CH)         	35		1.0129380035	1.0212434282	0.0482059581	-31.3908625764	Mat52.variance: 3.1079377426	Mat52.lengthscale: 5.38855131134	Gaussian_noise.variance: 0.235258457817	
+sde_Matern52	_1面积(CA)_2树高(CH)         	40		1.0371019299	0.9683986570	0.0461580293	-36.5405591133	Mat52.variance: 3.17132081033	Mat52.lengthscale: 5.82052230085	Gaussian_noise.variance: 0.256410884496	
+sde_Matern52	_1面积(CA)_2树高(CH)         	45		1.0058331650	0.9356950373	0.0431203487	-38.4897929843	Mat52.variance: 4.04090256023	Mat52.lengthscale: 6.5058634093	Gaussian_noise.variance: 0.231506538232	
+sde_Matern52	_1面积(CA)_2树高(CH)         	52		0.9885506460	0.9182132267	0.0404955813	-42.2245818530	Mat52.variance: 3.35388288195	Mat52.lengthscale: 5.85286089293	Gaussian_noise.variance: 0.218170728622	
+
+sde_RatQuad	_1面积(CA)_2树高(CH)         	5		0.0000000278	1.4203055739	0.0603269511	-7.0186570266	RatQuad.variance: 1.28724357163	RatQuad.lengthscale: 95.8026748807	RatQuad.power: 15681.8952835	Gaussian_noise.variance: 5.56268464627e-309	
+sde_RatQuad	_1面积(CA)_2树高(CH)         	10		0.1805300882	1.1132741069	0.0488926551	-10.1043453173	RatQuad.variance: 0.887123178897	RatQuad.lengthscale: 69.6098675409	RatQuad.power: 15681.9782512	Gaussian_noise.variance: 0.027633205484	
+sde_RatQuad	_1面积(CA)_2树高(CH)         	15		0.9233387664	1.2556274554	0.0582478538	-14.2989345353	RatQuad.variance: 1.44283245681	RatQuad.lengthscale: 285.871109584	RatQuad.power: 15681.4957465	Gaussian_noise.variance: 0.189148235767	
+sde_RatQuad	_1面积(CA)_2树高(CH)         	20		0.8436543059	1.1683793821	0.0544637769	-16.9063934781	RatQuad.variance: 1.6213776709	RatQuad.lengthscale: 334.186604365	RatQuad.power: 15681.055368	Gaussian_noise.variance: 0.168789883545	
+sde_RatQuad	_1面积(CA)_2树高(CH)         	25		0.9784824743	1.0946777877	0.0524705003	-21.7828429122	RatQuad.variance: 2.19038842041	RatQuad.lengthscale: 436.307393415	RatQuad.power: 15679.9671813	Gaussian_noise.variance: 0.205673971818	
+sde_RatQuad	_1面积(CA)_2树高(CH)         	30		1.0712756666	1.1121363718	0.0538723502	-27.6910823229	RatQuad.variance: 2.08128589544	RatQuad.lengthscale: 436.310000178	RatQuad.power: 15679.9671451	Gaussian_noise.variance: 0.247528974996	
+sde_RatQuad	_1面积(CA)_2树高(CH)         	35		1.0151453547	1.0254188440	0.0483052296	-30.9511907227	RatQuad.variance: 2.2095222963	RatQuad.lengthscale: 436.310136904	RatQuad.power: 15679.9671432	Gaussian_noise.variance: 0.233729084914	
+sde_RatQuad	_1面积(CA)_2树高(CH)         	40		1.0414066957	0.9724146651	0.0463140061	-36.1197575565	RatQuad.variance: 2.27690008561	RatQuad.lengthscale: 478.991074226	RatQuad.power: 15679.3734655	Gaussian_noise.variance: 0.255841662866	
+sde_RatQuad	_1面积(CA)_2树高(CH)         	45		1.0068201356	0.9376150172	0.0432754623	-38.0287236342	RatQuad.variance: 2.40737604582	RatQuad.lengthscale: 478.991225581	RatQuad.power: 15679.3734632	Gaussian_noise.variance: 0.230526173558	
+sde_RatQuad	_1面积(CA)_2树高(CH)         	52		0.9930609057	0.9233434546	0.0408984332	-41.7744526248	RatQuad.variance: 2.4357232085	RatQuad.lengthscale: 478.98814313	RatQuad.power: 15679.3735103	Gaussian_noise.variance: 0.217937817104	
+
+sde_RBF   	_1面积(CA)_2树高(CH)         	5		0.0000009838	1.4203524934	0.0603278703	-7.0186496907	rbf.variance: 1.28709464179	rbf.lengthscale: 0.764891292021	Gaussian_noise.variance: 3.44533961787e-07	
+sde_RBF   	_1面积(CA)_2树高(CH)         	10		0.7225156987	1.4490028753	0.0645990968	-10.0673790372	rbf.variance: 1.66920598983	rbf.lengthscale: 1.921084061	Gaussian_noise.variance: 0.133386286378	
+sde_RBF   	_1面积(CA)_2树高(CH)         	15		0.9233386696	1.2556275928	0.0582478591	-14.2988886970	rbf.variance: 1.44278654127	rbf.lengthscale: 2.2828196571	Gaussian_noise.variance: 0.189147196859	
+sde_RBF   	_1面积(CA)_2树高(CH)         	20		0.8436539373	1.1683813174	0.0544638744	-16.9063466487	rbf.variance: 1.62130654206	rbf.lengthscale: 2.66864083759	Gaussian_noise.variance: 0.168789646243	
+sde_RBF   	_1面积(CA)_2树高(CH)         	25		0.9784823159	1.0946777084	0.0524705268	-21.7828018550	rbf.variance: 2.1903309161	rbf.lengthscale: 3.4842646547	Gaussian_noise.variance: 0.205674113052	
+sde_RBF   	_1面积(CA)_2树高(CH)         	30		1.0717421575	1.1116563638	0.0538965009	-27.6901326277	rbf.variance: 2.15631861598	rbf.lengthscale: 3.55587785467	Gaussian_noise.variance: 0.247496587887	
+sde_RBF   	_1面积(CA)_2树高(CH)         	35		1.0156087054	1.0254644456	0.0483669133	-30.9501303703	rbf.variance: 2.28843884213	rbf.lengthscale: 3.55259178026	Gaussian_noise.variance: 0.233726089726	
+sde_RBF   	_1面积(CA)_2树高(CH)         	40		1.0414060511	0.9724145577	0.0463139805	-36.1197105849	rbf.variance: 2.27670519915	rbf.lengthscale: 3.82509445428	Gaussian_noise.variance: 0.255840206817	
+sde_RBF   	_1面积(CA)_2树高(CH)         	45		1.0071511935	0.9382246499	0.0433144058	-38.0271547000	rbf.variance: 2.53594221429	rbf.lengthscale: 3.92773481399	Gaussian_noise.variance: 0.230473427355	
+sde_RBF   	_1面积(CA)_2树高(CH)         	52		0.9920903344	0.9226536760	0.0408319689	-41.7658813909	rbf.variance: 2.17388279929	rbf.lengthscale: 3.6151738946	Gaussian_noise.variance: 0.217907278394	
+
+sde_White 	_1面积(CA)_2树高(CH)         	5		2.4124676164	1.7088007491	0.0750718436	-7.0946926661	white.variance: 0.500004888653	Gaussian_noise.variance: 0.500004888653	
+sde_White 	_1面积(CA)_2树高(CH)         	10		2.5803746498	1.6170532184	0.0794836104	-14.1893853321	white.variance: 0.360748819304	Gaussian_noise.variance: 0.639252741752	
+sde_White 	_1面积(CA)_2树高(CH)         	15		2.4755566954	1.6274277212	0.0808425630	-21.2840779981	white.variance: 0.292105931213	Gaussian_noise.variance: 0.707894006278	
+sde_White 	_1面积(CA)_2树高(CH)         	20		2.3180016348	1.6670745334	0.0834947126	-28.3787706641	white.variance: 0.250869133336	Gaussian_noise.variance: 0.749131099713	
+sde_White 	_1面积(CA)_2树高(CH)         	25		2.3488507828	1.8225088934	0.0893840356	-35.4734633301	white.variance: 0.222705139038	Gaussian_noise.variance: 0.777295093363	
+sde_White 	_1面积(CA)_2树高(CH)         	30		2.3117888779	1.9052234890	0.0924139080	-42.5681559961	white.variance: 0.201993137622	Gaussian_noise.variance: 0.798007059836	
+sde_White 	_1面积(CA)_2树高(CH)         	35		2.2406369143	1.8811752731	0.0915732704	-49.6628486622	white.variance: 0.185978330286	Gaussian_noise.variance: 0.814021830535	
+sde_White 	_1面积(CA)_2树高(CH)         	40		2.1757109065	1.8484509280	0.0903793862	-56.7575413282	white.variance: 0.173139087639	Gaussian_noise.variance: 0.826861042157	
+sde_White 	_1面积(CA)_2树高(CH)         	45		2.2069747107	1.8616843414	0.0908697581	-63.8522339942	white.variance: 0.16256042418	Gaussian_noise.variance: 0.837439680769	
+sde_White 	_1面积(CA)_2树高(CH)         	52		2.2258211493	1.8148170085	0.0890792184	-73.7848037266	white.variance: 0.153656039162	Gaussian_noise.variance: 0.846344046158	
+
+White     	_1面积(CA)_2树高(CH)         	5		2.4124676164	1.7088007491	0.0750718436	-7.0946926661	white.variance: 0.500004888653	Gaussian_noise.variance: 0.500004888653	
+White     	_1面积(CA)_2树高(CH)         	10		2.5803746498	1.6170532184	0.0794836104	-14.1893853321	white.variance: 0.360748819304	Gaussian_noise.variance: 0.639252741752	
+White     	_1面积(CA)_2树高(CH)         	15		2.4755566954	1.6274277212	0.0808425630	-21.2840779981	white.variance: 0.292105931213	Gaussian_noise.variance: 0.707894006278	
+White     	_1面积(CA)_2树高(CH)         	20		2.3180016348	1.6670745334	0.0834947126	-28.3787706641	white.variance: 0.250869133336	Gaussian_noise.variance: 0.749131099713	
+White     	_1面积(CA)_2树高(CH)         	25		2.3488507828	1.8225088934	0.0893840356	-35.4734633301	white.variance: 0.222705139038	Gaussian_noise.variance: 0.777295093363	
+White     	_1面积(CA)_2树高(CH)         	30		2.3117888779	1.9052234890	0.0924139080	-42.5681559961	white.variance: 0.201993137622	Gaussian_noise.variance: 0.798007059836	
+White     	_1面积(CA)_2树高(CH)         	35		2.2406369143	1.8811752731	0.0915732704	-49.6628486622	white.variance: 0.185978330286	Gaussian_noise.variance: 0.814021830535	
+White     	_1面积(CA)_2树高(CH)         	40		2.1757109065	1.8484509280	0.0903793862	-56.7575413282	white.variance: 0.173139087639	Gaussian_noise.variance: 0.826861042157	
+White     	_1面积(CA)_2树高(CH)         	45		2.2069747107	1.8616843414	0.0908697581	-63.8522339942	white.variance: 0.16256042418	Gaussian_noise.variance: 0.837439680769	
+White     	_1面积(CA)_2树高(CH)         	52		2.2258211493	1.8148170085	0.0890792184	-73.7848037266	white.variance: 0.153656039162	Gaussian_noise.variance: 0.846344046158	
+

@@ -1,0 +1,211 @@
+kernel		input_dim			train_num	train_rmse	test_rmse	avg_err		log-likelihood	model
+
+Bias      	_0冠幅(CW)                 	5		2.4124676164	1.7088007491	0.0750718436	-7.0946985435	bias.variance: 2.35099081411e-06	Gaussian_noise.variance: 0.999999952932	
+Bias      	_0冠幅(CW)                 	10		2.5803746498	1.6170532184	0.0794836104	-14.1893970867	bias.variance: 2.35094048716e-06	Gaussian_noise.variance: 1.00000851736	
+Bias      	_0冠幅(CW)                 	15		2.4755566954	1.6274277212	0.0808425630	-21.2840956296	bias.variance: 2.35089016295e-06	Gaussian_noise.variance: 1.00000851708	
+Bias      	_0冠幅(CW)                 	20		2.3180016348	1.6670745334	0.0834947126	-28.3787941721	bias.variance: 2.35083984148e-06	Gaussian_noise.variance: 1.00000851679	
+Bias      	_0冠幅(CW)                 	25		2.3488507828	1.8225088934	0.0893840356	-35.4734927143	bias.variance: 2.35078952275e-06	Gaussian_noise.variance: 1.00000851651	
+Bias      	_0冠幅(CW)                 	30		2.3117888779	1.9052234890	0.0924139080	-42.5681912562	bias.variance: 2.35073920675e-06	Gaussian_noise.variance: 1.00000851623	
+Bias      	_0冠幅(CW)                 	35		2.2406369143	1.8811752731	0.0915732704	-49.6628897978	bias.variance: 2.35068889348e-06	Gaussian_noise.variance: 1.00000851595	
+Bias      	_0冠幅(CW)                 	40		2.1757109065	1.8484509280	0.0903793862	-56.7575883391	bias.variance: 2.35063858295e-06	Gaussian_noise.variance: 1.00000851567	
+Bias      	_0冠幅(CW)                 	45		2.2069747107	1.8616843414	0.0908697581	-63.8522868800	bias.variance: 2.35058827516e-06	Gaussian_noise.variance: 1.00000851539	
+Bias      	_0冠幅(CW)                 	52		2.2258211493	1.8148170085	0.0890792184	-73.7848648373	bias.variance: 2.35053797033e-06	Gaussian_noise.variance: 1.00000851506	
+
+Exponential	_0冠幅(CW)                 	5		0.3946447107	1.4100556935	0.0622486037	-7.0479467209	Exponential.variance: 1.04376805016	Exponential.lengthscale: 0.759413388799	Gaussian_noise.variance: 0.148467326614	
+Exponential	_0冠幅(CW)                 	10		0.3313296140	1.9639259022	0.0757753049	-11.3861371093	Exponential.variance: 1.23840915808	Exponential.lengthscale: 1.12303845471	Gaussian_noise.variance: 0.0694956479749	
+Exponential	_0冠幅(CW)                 	15		0.8216068477	1.8292674669	0.0767443531	-17.2060913811	Exponential.variance: 1.35919384214	Exponential.lengthscale: 1.81752274733	Gaussian_noise.variance: 0.208211109598	
+Exponential	_0冠幅(CW)                 	20		0.9101451447	1.7097638569	0.0713560113	-21.6491481831	Exponential.variance: 1.45800254421	Exponential.lengthscale: 2.9654477159	Gaussian_noise.variance: 0.237681141903	
+Exponential	_0冠幅(CW)                 	25		0.9744161236	1.6237159203	0.0710801321	-26.9282852230	Exponential.variance: 1.40753069728	Exponential.lengthscale: 3.16421866302	Gaussian_noise.variance: 0.254789689806	
+Exponential	_0冠幅(CW)                 	30		1.2163352340	1.5770013495	0.0670792499	-35.1188054163	Exponential.variance: 1.18506734218	Exponential.lengthscale: 2.94030565711	Gaussian_noise.variance: 0.369224845923	
+Exponential	_0冠幅(CW)                 	35		1.2156190424	1.5816004199	0.0668337141	-40.8175886371	Exponential.variance: 1.29486541425	Exponential.lengthscale: 3.20715088126	Gaussian_noise.variance: 0.38114148286	
+Exponential	_0冠幅(CW)                 	40		1.3177224685	1.4807525319	0.0631237134	-48.1196119605	Exponential.variance: 1.23073360933	Exponential.lengthscale: 3.72688894885	Gaussian_noise.variance: 0.449393777928	
+Exponential	_0冠幅(CW)                 	45		1.2347636017	1.5086001726	0.0654519794	-51.0040717984	Exponential.variance: 1.35855338087	Exponential.lengthscale: 4.1266317588	Gaussian_noise.variance: 0.385039886165	
+Exponential	_0冠幅(CW)                 	52		1.2223557317	1.5342903226	0.0656222753	-56.5930743229	Exponential.variance: 1.38683832411	Exponential.lengthscale: 4.70409632966	Gaussian_noise.variance: 0.363223567174	
+
+ExpQuad   	_0冠幅(CW)                 	5		0.8544526109	1.3887894581	0.0605185884	-6.8545416027	ExpQuad.variance: 1.47440057312	ExpQuad.lengthscale: 1.16964769258	Gaussian_noise.variance: 0.260371748289	
+ExpQuad   	_0冠幅(CW)                 	10		1.0936003996	1.8275685927	0.0791264378	-11.4957758638	ExpQuad.variance: 1.42654606963	ExpQuad.lengthscale: 1.29920646939	Gaussian_noise.variance: 0.258461393118	
+ExpQuad   	_0冠幅(CW)                 	15		1.1134193019	1.9067983596	0.0835557924	-16.1266733857	ExpQuad.variance: 1.80109822983	ExpQuad.lengthscale: 1.2889104192	Gaussian_noise.variance: 0.25922687778	
+ExpQuad   	_0冠幅(CW)                 	20		1.0320365946	1.7942453732	0.0775540572	-19.7019236395	ExpQuad.variance: 1.93371950283	ExpQuad.lengthscale: 1.44698923335	Gaussian_noise.variance: 0.239884577577	
+ExpQuad   	_0冠幅(CW)                 	25		1.1581812113	1.6565260779	0.0712772487	-25.0678334913	ExpQuad.variance: 2.09790879631	ExpQuad.lengthscale: 1.79925337195	Gaussian_noise.variance: 0.280007348407	
+ExpQuad   	_0冠幅(CW)                 	30		1.3824544158	1.5538615272	0.0677221664	-34.1645443515	ExpQuad.variance: 1.46678687482	ExpQuad.lengthscale: 1.43007864886	Gaussian_noise.variance: 0.404341409391	
+ExpQuad   	_0冠幅(CW)                 	35		1.3853155168	1.5203469702	0.0657717366	-39.8276704477	ExpQuad.variance: 1.83388960251	ExpQuad.lengthscale: 1.68631760809	Gaussian_noise.variance: 0.421578723223	
+ExpQuad   	_0冠幅(CW)                 	40		1.4322638276	1.4398018751	0.0614649768	-46.5653181078	ExpQuad.variance: 1.8709468744	ExpQuad.lengthscale: 2.03307228526	Gaussian_noise.variance: 0.4686632076	
+ExpQuad   	_0冠幅(CW)                 	45		1.3589011146	1.4459881686	0.0622623192	-49.1304416859	ExpQuad.variance: 2.33952504405	ExpQuad.lengthscale: 2.21456634177	Gaussian_noise.variance: 0.406975130264	
+ExpQuad   	_0冠幅(CW)                 	52		1.3225398829	1.4796733236	0.0635064509	-54.1865885131	ExpQuad.variance: 2.19864627334	ExpQuad.lengthscale: 2.16842369664	Gaussian_noise.variance: 0.376211277559	
+
+GridRBF   	_0冠幅(CW)                 	5		0.8544526109	1.3887894581	0.0605185884	-6.8545416027	gridRBF.variance: 1.47440057312	gridRBF.lengthscale: 1.16964769258	Gaussian_noise.variance: 0.260371748289	
+GridRBF   	_0冠幅(CW)                 	10		1.0936003996	1.8275685927	0.0791264378	-11.4957758638	gridRBF.variance: 1.42654606963	gridRBF.lengthscale: 1.29920646939	Gaussian_noise.variance: 0.258461393118	
+GridRBF   	_0冠幅(CW)                 	15		1.1134193019	1.9067983596	0.0835557924	-16.1266733857	gridRBF.variance: 1.80109822983	gridRBF.lengthscale: 1.2889104192	Gaussian_noise.variance: 0.25922687778	
+GridRBF   	_0冠幅(CW)                 	20		1.0320365946	1.7942453732	0.0775540572	-19.7019236395	gridRBF.variance: 1.93371950283	gridRBF.lengthscale: 1.44698923335	Gaussian_noise.variance: 0.239884577577	
+GridRBF   	_0冠幅(CW)                 	25		1.1581812113	1.6565260779	0.0712772487	-25.0678334913	gridRBF.variance: 2.09790879631	gridRBF.lengthscale: 1.79925337195	Gaussian_noise.variance: 0.280007348407	
+GridRBF   	_0冠幅(CW)                 	30		1.3824544158	1.5538615272	0.0677221664	-34.1645443515	gridRBF.variance: 1.46678687482	gridRBF.lengthscale: 1.43007864886	Gaussian_noise.variance: 0.404341409391	
+GridRBF   	_0冠幅(CW)                 	35		1.3853155168	1.5203469702	0.0657717366	-39.8276704477	gridRBF.variance: 1.83388960251	gridRBF.lengthscale: 1.68631760809	Gaussian_noise.variance: 0.421578723223	
+GridRBF   	_0冠幅(CW)                 	40		1.4322638276	1.4398018751	0.0614649768	-46.5653181078	gridRBF.variance: 1.8709468744	gridRBF.lengthscale: 2.03307228526	Gaussian_noise.variance: 0.4686632076	
+GridRBF   	_0冠幅(CW)                 	45		1.3589011146	1.4459881686	0.0622623192	-49.1304416859	gridRBF.variance: 2.33952504405	gridRBF.lengthscale: 2.21456634177	Gaussian_noise.variance: 0.406975130264	
+GridRBF   	_0冠幅(CW)                 	52		1.3225398829	1.4796733236	0.0635064509	-54.1865885131	gridRBF.variance: 2.19864627334	gridRBF.lengthscale: 2.16842369664	Gaussian_noise.variance: 0.376211277559	
+
+Linear    	_0冠幅(CW)                 	5		1.2682523048	1.4766983447	0.0605872604	-5.5704854451	linear.variances: 0.662349414185	Gaussian_noise.variance: 0.337650408893	
+Linear    	_0冠幅(CW)                 	10		1.7857906837	1.3362387429	0.0597740915	-12.1314795269	linear.variances: 0.473674966216	Gaussian_noise.variance: 0.526325014028	
+Linear    	_0冠幅(CW)                 	15		1.7043186612	1.3132535485	0.0592415599	-17.5438597520	linear.variances: 0.494474960882	Gaussian_noise.variance: 0.50552689112	
+Linear    	_0冠幅(CW)                 	20		1.5270015997	1.3279186637	0.0596034811	-22.1295177431	linear.variances: 0.544162613929	Gaussian_noise.variance: 0.455837518912	
+Linear    	_0冠幅(CW)                 	25		1.5394074877	1.3842997997	0.0607748658	-27.1362788836	linear.variances: 0.553151241715	Gaussian_noise.variance: 0.44684740063	
+Linear    	_0冠幅(CW)                 	30		1.6806428869	1.3683296475	0.0619543654	-35.1193686007	linear.variances: 0.453987993108	Gaussian_noise.variance: 0.546010511356	
+Linear    	_0冠幅(CW)                 	35		1.6126259327	1.3570236779	0.0618693405	-40.3706697237	linear.variances: 0.46726848239	Gaussian_noise.variance: 0.532734472756	
+Linear    	_0冠幅(CW)                 	40		1.5773410042	1.3467217537	0.0612222164	-46.1660768638	linear.variances: 0.461317100772	Gaussian_noise.variance: 0.538677255251	
+Linear    	_0冠幅(CW)                 	45		1.5033849460	1.3490302546	0.0603478549	-49.0367423181	linear.variances: 0.525632280652	Gaussian_noise.variance: 0.474364021025	
+Linear    	_0冠幅(CW)                 	52		1.4803019690	1.3552724741	0.0600385678	-55.1540993471	linear.variances: 0.549218340707	Gaussian_noise.variance: 0.450836138111	
+
+Matern32  	_0冠幅(CW)                 	5		0.8902903203	1.3463616754	0.0598289814	-6.9847576685	Mat32.variance: 1.12230058727	Mat32.lengthscale: 1.14948067087	Gaussian_noise.variance: 0.306051110996	
+Matern32  	_0冠幅(CW)                 	10		0.5464646325	1.9933735235	0.0764648068	-11.3259859234	Mat32.variance: 1.1290975471	Mat32.lengthscale: 0.62357310268	Gaussian_noise.variance: 0.117633032181	
+Matern32  	_0冠幅(CW)                 	15		1.0865231019	1.8657937944	0.0811344785	-16.5542894551	Mat32.variance: 1.77983777773	Mat32.lengthscale: 1.75323579939	Gaussian_noise.variance: 0.26189106595	
+Matern32  	_0冠幅(CW)                 	20		1.0163416371	1.7784296592	0.0762533196	-20.3006898139	Mat32.variance: 2.18945188112	Mat32.lengthscale: 2.29107550646	Gaussian_noise.variance: 0.243467924128	
+Matern32  	_0冠幅(CW)                 	25		1.1493857472	1.6385928849	0.0708194274	-25.7967594840	Mat32.variance: 2.17504907054	Mat32.lengthscale: 2.79723775037	Gaussian_noise.variance: 0.286933581428	
+Matern32  	_0冠幅(CW)                 	30		1.3553569052	1.5628972861	0.0676824918	-34.4353430206	Mat32.variance: 1.55739289263	Mat32.lengthscale: 2.19047208589	Gaussian_noise.variance: 0.400322383469	
+Matern32  	_0冠幅(CW)                 	35		1.3609203730	1.5273128994	0.0656950515	-40.1597587791	Mat32.variance: 1.82680216783	Mat32.lengthscale: 2.49010585525	Gaussian_noise.variance: 0.418292608866	
+Matern32  	_0冠幅(CW)                 	40		1.4271823576	1.4342805935	0.0608016190	-47.1414419583	Mat32.variance: 2.04236074587	Mat32.lengthscale: 3.29440125514	Gaussian_noise.variance: 0.473845004984	
+Matern32  	_0冠幅(CW)                 	45		1.3536299041	1.4452953812	0.0620968757	-49.8363707619	Mat32.variance: 2.63616494622	Mat32.lengthscale: 3.80022775035	Gaussian_noise.variance: 0.411582621387	
+Matern32  	_0冠幅(CW)                 	52		1.3183696177	1.4804559025	0.0630602126	-55.0010609998	Mat32.variance: 2.63429284569	Mat32.lengthscale: 3.87934726387	Gaussian_noise.variance: 0.380430015569	
+
+Matern52  	_0冠幅(CW)                 	5		0.8972873339	1.3513625027	0.0599302163	-6.9413584723	Mat52.variance: 1.26062311205	Mat52.lengthscale: 1.21195932732	Gaussian_noise.variance: 0.294431375783	
+Matern52  	_0冠幅(CW)                 	10		0.5691728524	1.9992799911	0.0766701178	-11.2848361887	Mat52.variance: 1.08356234016	Mat52.lengthscale: 0.519747028214	Gaussian_noise.variance: 0.121230645569	
+Matern52  	_0冠幅(CW)                 	15		1.1045135717	1.8772044643	0.0819676204	-16.3588839106	Mat52.variance: 1.84875304384	Mat52.lengthscale: 1.59108561225	Gaussian_noise.variance: 0.261693500589	
+Matern52  	_0冠幅(CW)                 	20		1.0248061660	1.7836405789	0.0767909331	-20.0059082392	Mat52.variance: 2.17087483526	Mat52.lengthscale: 1.93553610657	Gaussian_noise.variance: 0.241449203662	
+Matern52  	_0冠幅(CW)                 	25		1.1578062458	1.6444215525	0.0708977420	-25.4675598296	Mat52.variance: 2.30824809753	Mat52.lengthscale: 2.43802119561	Gaussian_noise.variance: 0.284467494634	
+Matern52  	_0冠幅(CW)                 	30		1.3719635668	1.5537514279	0.0676025410	-34.3047519770	Mat52.variance: 1.57936488621	Mat52.lengthscale: 1.90447636403	Gaussian_noise.variance: 0.4032322422	
+Matern52  	_0冠幅(CW)                 	35		1.3770672251	1.5160643185	0.0655705721	-40.0100010161	Mat52.variance: 1.948130228	Mat52.lengthscale: 2.23369169951	Gaussian_noise.variance: 0.421221725706	
+Matern52  	_0冠幅(CW)                 	40		1.4313806163	1.4325705920	0.0610367082	-46.8688781632	Mat52.variance: 2.1117838995	Mat52.lengthscale: 2.79965551106	Gaussian_noise.variance: 0.471562215456	
+Matern52  	_0冠幅(CW)                 	45		1.3579834732	1.4412896108	0.0620924221	-49.4921614023	Mat52.variance: 2.74713541933	Mat52.lengthscale: 3.16681318149	Gaussian_noise.variance: 0.409482563218	
+Matern52  	_0冠幅(CW)                 	52		1.3217669568	1.4761438685	0.0632199824	-54.6007394891	Mat52.variance: 2.62606835578	Mat52.lengthscale: 3.12995137391	Gaussian_noise.variance: 0.378461040674	
+
+MLP       	_0冠幅(CW)                 	5		1.1824499569	1.5304315611	0.0644746588	-5.3584863656	mlp.variance: 3.73999390996	mlp.weight_variance: 0.581603364696	mlp.bias_variance: 3.7024076702e-09	Gaussian_noise.variance: 0.299964571428	
+MLP       	_0冠幅(CW)                 	10		1.2869194941	1.6882917542	0.0653439616	-9.5487333633	mlp.variance: 0.835091120518	mlp.weight_variance: 32.7430913503	mlp.bias_variance: 3.70241677992e-09	Gaussian_noise.variance: 0.283182716089	
+MLP       	_0冠幅(CW)                 	15		1.4447161500	1.5164107373	0.0603189767	-15.5727115356	mlp.variance: 1.57135341205	mlp.weight_variance: 2.47324499035	mlp.bias_variance: 3.70271757469e-09	Gaussian_noise.variance: 0.372547518967	
+MLP       	_0冠幅(CW)                 	20		1.3177056584	1.5184415227	0.0605728906	-19.7104107703	mlp.variance: 1.60079127341	mlp.weight_variance: 2.1969923987	mlp.bias_variance: 3.7027577259e-09	Gaussian_noise.variance: 0.347041680206	
+MLP       	_0冠幅(CW)                 	25		1.3768099623	1.5046048785	0.0619560582	-24.8028911817	mlp.variance: 2.11383816928	mlp.weight_variance: 1.06569835868	mlp.bias_variance: 3.70276380808e-09	Gaussian_noise.variance: 0.363054299815	
+MLP       	_0冠幅(CW)                 	30		1.6266891235	1.4032150990	0.0605787962	-34.3315200574	mlp.variance: 2.51845695978	mlp.weight_variance: 0.528728976076	mlp.bias_variance: 3.70276147231e-09	Gaussian_noise.variance: 0.515045050164	
+MLP       	_0冠幅(CW)                 	35		1.5641418431	1.3885669493	0.0600811883	-39.5115948932	mlp.variance: 2.58188276096	mlp.weight_variance: 0.505932214128	mlp.bias_variance: 3.70275753007e-09	Gaussian_noise.variance: 0.504625023542	
+MLP       	_0冠幅(CW)                 	40		1.5248783751	1.3914089191	0.0598686375	-45.0654801911	mlp.variance: 2.23095455905	mlp.weight_variance: 0.62299162452	mlp.bias_variance: 3.70275126839e-09	Gaussian_noise.variance: 0.507104150391	
+MLP       	_0冠幅(CW)                 	45		1.4662938023	1.3836960602	0.0593344119	-48.1274756290	mlp.variance: 3.24031798958	mlp.weight_variance: 0.381198973091	mlp.bias_variance: 3.70273562632e-09	Gaussian_noise.variance: 0.453914704988	
+MLP       	_0冠幅(CW)                 	52		1.4140003686	1.4189309013	0.0601470790	-53.1364692765	mlp.variance: 2.34596444006	mlp.weight_variance: 0.616458737158	mlp.bias_variance: 3.70273030626e-09	Gaussian_noise.variance: 0.414560962827	
+
+OU        	_0冠幅(CW)                 	5		0.3946447107	1.4100556935	0.0622486037	-7.0479467209	OU.variance: 1.04376805016	OU.lengthscale: 0.759413388799	Gaussian_noise.variance: 0.148467326614	
+OU        	_0冠幅(CW)                 	10		0.3313296140	1.9639259022	0.0757753049	-11.3861371093	OU.variance: 1.23840915808	OU.lengthscale: 1.12303845471	Gaussian_noise.variance: 0.0694956479749	
+OU        	_0冠幅(CW)                 	15		0.8216068477	1.8292674669	0.0767443531	-17.2060913811	OU.variance: 1.35919384214	OU.lengthscale: 1.81752274733	Gaussian_noise.variance: 0.208211109598	
+OU        	_0冠幅(CW)                 	20		0.9101451447	1.7097638569	0.0713560113	-21.6491481831	OU.variance: 1.45800254421	OU.lengthscale: 2.9654477159	Gaussian_noise.variance: 0.237681141903	
+OU        	_0冠幅(CW)                 	25		0.9744161236	1.6237159203	0.0710801321	-26.9282852230	OU.variance: 1.40753069728	OU.lengthscale: 3.16421866302	Gaussian_noise.variance: 0.254789689806	
+OU        	_0冠幅(CW)                 	30		1.2163352340	1.5770013495	0.0670792499	-35.1188054163	OU.variance: 1.18506734218	OU.lengthscale: 2.94030565711	Gaussian_noise.variance: 0.369224845923	
+OU        	_0冠幅(CW)                 	35		1.2156190424	1.5816004199	0.0668337141	-40.8175886371	OU.variance: 1.29486541425	OU.lengthscale: 3.20715088126	Gaussian_noise.variance: 0.38114148286	
+OU        	_0冠幅(CW)                 	40		1.3177224685	1.4807525319	0.0631237134	-48.1196119605	OU.variance: 1.23073360933	OU.lengthscale: 3.72688894885	Gaussian_noise.variance: 0.449393777928	
+OU        	_0冠幅(CW)                 	45		1.2347636017	1.5086001726	0.0654519794	-51.0040717984	OU.variance: 1.35855338087	OU.lengthscale: 4.1266317588	Gaussian_noise.variance: 0.385039886165	
+OU        	_0冠幅(CW)                 	52		1.2223557317	1.5342903226	0.0656222753	-56.5930743229	OU.variance: 1.38683832411	OU.lengthscale: 4.70409632966	Gaussian_noise.variance: 0.363223567174	
+
+Poly      	_0冠幅(CW)                 	5		1.0503194617	1.5816176958	0.0655312094	-6.5796112060	poly.variance: 0.619536743223	poly.scale: 0.652883881647	poly.bias: 0.298792411746	Gaussian_noise.variance: 0.301163802109	
+Poly      	_0冠幅(CW)                 	10		1.1154221579	1.7292558893	0.0770247784	-12.3748335781	poly.variance: 0.669191353402	poly.scale: 0.279485574619	poly.bias: 1.06769340358	Gaussian_noise.variance: 0.26716385146	
+Poly      	_0冠幅(CW)                 	15		1.1497738433	1.7545893446	0.0785809271	-16.9853622423	poly.variance: 0.693652642223	poly.scale: 0.288199803238	poly.bias: 1.1363087002	Gaussian_noise.variance: 0.271894456394	
+Poly      	_0冠幅(CW)                 	20		1.0642068371	1.6838411567	0.0752780874	-20.4641116784	poly.variance: 0.675487384624	poly.scale: 0.249275708551	poly.bias: 1.15137698266	Gaussian_noise.variance: 0.251663806174	
+Poly      	_0冠幅(CW)                 	25		1.1555808948	1.6461491225	0.0734649442	-25.1512259996	poly.variance: 0.628688622497	poly.scale: 0.214797603638	poly.bias: 1.06491946835	Gaussian_noise.variance: 0.278630359986	
+Poly      	_0冠幅(CW)                 	30		1.3804498006	1.5448757163	0.0700798802	-33.7370747494	poly.variance: 0.584437170948	poly.scale: 0.266174452679	poly.bias: 0.810504421506	Gaussian_noise.variance: 0.400421441221	
+Poly      	_0冠幅(CW)                 	35		1.3744916568	1.5120566275	0.0680653041	-39.3382498308	poly.variance: 0.589387067822	poly.scale: 0.256596994326	poly.bias: 0.84584014046	Gaussian_noise.variance: 0.415126260029	
+Poly      	_0冠幅(CW)                 	40		1.4197210481	1.4331861090	0.0638246807	-46.1819772955	poly.variance: 0.571925228678	poly.scale: 0.206855619075	poly.bias: 0.89128558524	Gaussian_noise.variance: 0.462276580169	
+Poly      	_0冠幅(CW)                 	45		1.3494737903	1.4368785118	0.0638013474	-48.6275130797	poly.variance: 0.574703461382	poly.scale: 0.190575541805	poly.bias: 0.940807944742	Gaussian_noise.variance: 0.402757370995	
+Poly      	_0冠幅(CW)                 	52		1.3212712884	1.4750191086	0.0651639168	-54.1061907055	poly.variance: 0.590261407787	poly.scale: 0.169942422846	poly.bias: 1.05262901259	Gaussian_noise.variance: 0.376021290462	
+
+RBF       	_0冠幅(CW)                 	5		0.8544526109	1.3887894581	0.0605185884	-6.8545416027	rbf.variance: 1.47440057312	rbf.lengthscale: 1.16964769258	Gaussian_noise.variance: 0.260371748289	
+RBF       	_0冠幅(CW)                 	10		1.0936003996	1.8275685927	0.0791264378	-11.4957758638	rbf.variance: 1.42654606963	rbf.lengthscale: 1.29920646939	Gaussian_noise.variance: 0.258461393118	
+RBF       	_0冠幅(CW)                 	15		1.1134193019	1.9067983596	0.0835557924	-16.1266733857	rbf.variance: 1.80109822983	rbf.lengthscale: 1.2889104192	Gaussian_noise.variance: 0.25922687778	
+RBF       	_0冠幅(CW)                 	20		1.0320365946	1.7942453732	0.0775540572	-19.7019236395	rbf.variance: 1.93371950283	rbf.lengthscale: 1.44698923335	Gaussian_noise.variance: 0.239884577577	
+RBF       	_0冠幅(CW)                 	25		1.1581812113	1.6565260779	0.0712772487	-25.0678334913	rbf.variance: 2.09790879631	rbf.lengthscale: 1.79925337195	Gaussian_noise.variance: 0.280007348407	
+RBF       	_0冠幅(CW)                 	30		1.3824544158	1.5538615272	0.0677221664	-34.1645443515	rbf.variance: 1.46678687482	rbf.lengthscale: 1.43007864886	Gaussian_noise.variance: 0.404341409391	
+RBF       	_0冠幅(CW)                 	35		1.3853155168	1.5203469702	0.0657717366	-39.8276704477	rbf.variance: 1.83388960251	rbf.lengthscale: 1.68631760809	Gaussian_noise.variance: 0.421578723223	
+RBF       	_0冠幅(CW)                 	40		1.4322638276	1.4398018751	0.0614649768	-46.5653181078	rbf.variance: 1.8709468744	rbf.lengthscale: 2.03307228526	Gaussian_noise.variance: 0.4686632076	
+RBF       	_0冠幅(CW)                 	45		1.3589011146	1.4459881686	0.0622623192	-49.1304416859	rbf.variance: 2.33952504405	rbf.lengthscale: 2.21456634177	Gaussian_noise.variance: 0.406975130264	
+RBF       	_0冠幅(CW)                 	52		1.3225398829	1.4796733236	0.0635064509	-54.1865885131	rbf.variance: 2.19864627334	rbf.lengthscale: 2.16842369664	Gaussian_noise.variance: 0.376211277559	
+
+sde_Bias  	_0冠幅(CW)                 	5		2.4124676164	1.7088007491	0.0750718436	-7.0946985435	bias.variance: 2.35099081411e-06	Gaussian_noise.variance: 0.999999952932	
+sde_Bias  	_0冠幅(CW)                 	10		2.5803746498	1.6170532184	0.0794836104	-14.1893970867	bias.variance: 2.35094048716e-06	Gaussian_noise.variance: 1.00000851736	
+sde_Bias  	_0冠幅(CW)                 	15		2.4755566954	1.6274277212	0.0808425630	-21.2840956296	bias.variance: 2.35089016295e-06	Gaussian_noise.variance: 1.00000851708	
+sde_Bias  	_0冠幅(CW)                 	20		2.3180016348	1.6670745334	0.0834947126	-28.3787941721	bias.variance: 2.35083984148e-06	Gaussian_noise.variance: 1.00000851679	
+sde_Bias  	_0冠幅(CW)                 	25		2.3488507828	1.8225088934	0.0893840356	-35.4734927143	bias.variance: 2.35078952275e-06	Gaussian_noise.variance: 1.00000851651	
+sde_Bias  	_0冠幅(CW)                 	30		2.3117888779	1.9052234890	0.0924139080	-42.5681912562	bias.variance: 2.35073920675e-06	Gaussian_noise.variance: 1.00000851623	
+sde_Bias  	_0冠幅(CW)                 	35		2.2406369143	1.8811752731	0.0915732704	-49.6628897978	bias.variance: 2.35068889348e-06	Gaussian_noise.variance: 1.00000851595	
+sde_Bias  	_0冠幅(CW)                 	40		2.1757109065	1.8484509280	0.0903793862	-56.7575883391	bias.variance: 2.35063858295e-06	Gaussian_noise.variance: 1.00000851567	
+sde_Bias  	_0冠幅(CW)                 	45		2.2069747107	1.8616843414	0.0908697581	-63.8522868800	bias.variance: 2.35058827516e-06	Gaussian_noise.variance: 1.00000851539	
+sde_Bias  	_0冠幅(CW)                 	52		2.2258211493	1.8148170085	0.0890792184	-73.7848648373	bias.variance: 2.35053797033e-06	Gaussian_noise.variance: 1.00000851506	
+
+sde_Exponential	_0冠幅(CW)                 	5		0.3946447107	1.4100556935	0.0622486037	-7.0479467209	Exponential.variance: 1.04376805016	Exponential.lengthscale: 0.759413388799	Gaussian_noise.variance: 0.148467326614	
+sde_Exponential	_0冠幅(CW)                 	10		0.3313296140	1.9639259022	0.0757753049	-11.3861371093	Exponential.variance: 1.23840915808	Exponential.lengthscale: 1.12303845471	Gaussian_noise.variance: 0.0694956479749	
+sde_Exponential	_0冠幅(CW)                 	15		0.8216068477	1.8292674669	0.0767443531	-17.2060913811	Exponential.variance: 1.35919384214	Exponential.lengthscale: 1.81752274733	Gaussian_noise.variance: 0.208211109598	
+sde_Exponential	_0冠幅(CW)                 	20		0.9101451447	1.7097638569	0.0713560113	-21.6491481831	Exponential.variance: 1.45800254421	Exponential.lengthscale: 2.9654477159	Gaussian_noise.variance: 0.237681141903	
+sde_Exponential	_0冠幅(CW)                 	25		0.9744161236	1.6237159203	0.0710801321	-26.9282852230	Exponential.variance: 1.40753069728	Exponential.lengthscale: 3.16421866302	Gaussian_noise.variance: 0.254789689806	
+sde_Exponential	_0冠幅(CW)                 	30		1.2163352340	1.5770013495	0.0670792499	-35.1188054163	Exponential.variance: 1.18506734218	Exponential.lengthscale: 2.94030565711	Gaussian_noise.variance: 0.369224845923	
+sde_Exponential	_0冠幅(CW)                 	35		1.2156190424	1.5816004199	0.0668337141	-40.8175886371	Exponential.variance: 1.29486541425	Exponential.lengthscale: 3.20715088126	Gaussian_noise.variance: 0.38114148286	
+sde_Exponential	_0冠幅(CW)                 	40		1.3177224685	1.4807525319	0.0631237134	-48.1196119605	Exponential.variance: 1.23073360933	Exponential.lengthscale: 3.72688894885	Gaussian_noise.variance: 0.449393777928	
+sde_Exponential	_0冠幅(CW)                 	45		1.2347636017	1.5086001726	0.0654519794	-51.0040717984	Exponential.variance: 1.35855338087	Exponential.lengthscale: 4.1266317588	Gaussian_noise.variance: 0.385039886165	
+sde_Exponential	_0冠幅(CW)                 	52		1.2223557317	1.5342903226	0.0656222753	-56.5930743229	Exponential.variance: 1.38683832411	Exponential.lengthscale: 4.70409632966	Gaussian_noise.variance: 0.363223567174	
+
+sde_Matern32	_0冠幅(CW)                 	5		0.8902903203	1.3463616754	0.0598289814	-6.9847576685	Mat32.variance: 1.12230058727	Mat32.lengthscale: 1.14948067087	Gaussian_noise.variance: 0.306051110996	
+sde_Matern32	_0冠幅(CW)                 	10		0.5464646325	1.9933735235	0.0764648068	-11.3259859234	Mat32.variance: 1.1290975471	Mat32.lengthscale: 0.62357310268	Gaussian_noise.variance: 0.117633032181	
+sde_Matern32	_0冠幅(CW)                 	15		1.0865231019	1.8657937944	0.0811344785	-16.5542894551	Mat32.variance: 1.77983777773	Mat32.lengthscale: 1.75323579939	Gaussian_noise.variance: 0.26189106595	
+sde_Matern32	_0冠幅(CW)                 	20		1.0163416371	1.7784296592	0.0762533196	-20.3006898139	Mat32.variance: 2.18945188112	Mat32.lengthscale: 2.29107550646	Gaussian_noise.variance: 0.243467924128	
+sde_Matern32	_0冠幅(CW)                 	25		1.1493857472	1.6385928849	0.0708194274	-25.7967594840	Mat32.variance: 2.17504907054	Mat32.lengthscale: 2.79723775037	Gaussian_noise.variance: 0.286933581428	
+sde_Matern32	_0冠幅(CW)                 	30		1.3553569052	1.5628972861	0.0676824918	-34.4353430206	Mat32.variance: 1.55739289263	Mat32.lengthscale: 2.19047208589	Gaussian_noise.variance: 0.400322383469	
+sde_Matern32	_0冠幅(CW)                 	35		1.3609203730	1.5273128994	0.0656950515	-40.1597587791	Mat32.variance: 1.82680216783	Mat32.lengthscale: 2.49010585525	Gaussian_noise.variance: 0.418292608866	
+sde_Matern32	_0冠幅(CW)                 	40		1.4271823576	1.4342805935	0.0608016190	-47.1414419583	Mat32.variance: 2.04236074587	Mat32.lengthscale: 3.29440125514	Gaussian_noise.variance: 0.473845004984	
+sde_Matern32	_0冠幅(CW)                 	45		1.3536299041	1.4452953812	0.0620968757	-49.8363707619	Mat32.variance: 2.63616494622	Mat32.lengthscale: 3.80022775035	Gaussian_noise.variance: 0.411582621387	
+sde_Matern32	_0冠幅(CW)                 	52		1.3183696177	1.4804559025	0.0630602126	-55.0010609998	Mat32.variance: 2.63429284569	Mat32.lengthscale: 3.87934726387	Gaussian_noise.variance: 0.380430015569	
+
+sde_Matern52	_0冠幅(CW)                 	5		0.8972873339	1.3513625027	0.0599302163	-6.9413584723	Mat52.variance: 1.26062311205	Mat52.lengthscale: 1.21195932732	Gaussian_noise.variance: 0.294431375783	
+sde_Matern52	_0冠幅(CW)                 	10		0.5691728524	1.9992799911	0.0766701178	-11.2848361887	Mat52.variance: 1.08356234016	Mat52.lengthscale: 0.519747028214	Gaussian_noise.variance: 0.121230645569	
+sde_Matern52	_0冠幅(CW)                 	15		1.1045135717	1.8772044643	0.0819676204	-16.3588839106	Mat52.variance: 1.84875304384	Mat52.lengthscale: 1.59108561225	Gaussian_noise.variance: 0.261693500589	
+sde_Matern52	_0冠幅(CW)                 	20		1.0248061660	1.7836405789	0.0767909331	-20.0059082392	Mat52.variance: 2.17087483526	Mat52.lengthscale: 1.93553610657	Gaussian_noise.variance: 0.241449203662	
+sde_Matern52	_0冠幅(CW)                 	25		1.1578062458	1.6444215525	0.0708977420	-25.4675598296	Mat52.variance: 2.30824809753	Mat52.lengthscale: 2.43802119561	Gaussian_noise.variance: 0.284467494634	
+sde_Matern52	_0冠幅(CW)                 	30		1.3719635668	1.5537514279	0.0676025410	-34.3047519770	Mat52.variance: 1.57936488621	Mat52.lengthscale: 1.90447636403	Gaussian_noise.variance: 0.4032322422	
+sde_Matern52	_0冠幅(CW)                 	35		1.3770672251	1.5160643185	0.0655705721	-40.0100010161	Mat52.variance: 1.948130228	Mat52.lengthscale: 2.23369169951	Gaussian_noise.variance: 0.421221725706	
+sde_Matern52	_0冠幅(CW)                 	40		1.4313806163	1.4325705920	0.0610367082	-46.8688781632	Mat52.variance: 2.1117838995	Mat52.lengthscale: 2.79965551106	Gaussian_noise.variance: 0.471562215456	
+sde_Matern52	_0冠幅(CW)                 	45		1.3579834732	1.4412896108	0.0620924221	-49.4921614023	Mat52.variance: 2.74713541933	Mat52.lengthscale: 3.16681318149	Gaussian_noise.variance: 0.409482563218	
+sde_Matern52	_0冠幅(CW)                 	52		1.3217669568	1.4761438685	0.0632199824	-54.6007394891	Mat52.variance: 2.62606835578	Mat52.lengthscale: 3.12995137391	Gaussian_noise.variance: 0.378461040674	
+
+sde_RatQuad	_0冠幅(CW)                 	5		0.8544807545	1.3887778128	0.0605184247	-6.8545443191	RatQuad.variance: 1.47435029387	RatQuad.lengthscale: 323.907191807	RatQuad.power: 76661.9394922	Gaussian_noise.variance: 0.260360808705	
+sde_RatQuad	_0冠幅(CW)                 	10		1.0936007362	1.8275677318	0.0791263712	-11.4957826449	RatQuad.variance: 1.42653267823	RatQuad.lengthscale: 359.720676248	RatQuad.power: 76661.8638325	Gaussian_noise.variance: 0.258460757466	
+sde_RatQuad	_0冠幅(CW)                 	15		1.1134370386	1.9071761602	0.0835837376	-16.1268085063	RatQuad.variance: 1.82191942222	RatQuad.lengthscale: 359.715683531	RatQuad.power: 76661.8638442	Gaussian_noise.variance: 0.259069297138	
+sde_RatQuad	_0冠幅(CW)                 	20		1.0320364021	1.7942451022	0.0775540337	-19.7019300994	RatQuad.variance: 1.93371676434	RatQuad.lengthscale: 400.640011395	RatQuad.power: 76661.7678286	Gaussian_noise.variance: 0.239884503576	
+sde_RatQuad	_0冠幅(CW)                 	25		1.1581810651	1.6565256552	0.0712772564	-25.0678422700	RatQuad.variance: 2.09795644991	RatQuad.lengthscale: 498.180069341	RatQuad.power: 76661.512943	Gaussian_noise.variance: 0.280007531608	
+sde_RatQuad	_0冠幅(CW)                 	30		1.3824538639	1.5538620358	0.0677222028	-34.1645463653	RatQuad.variance: 1.46679800052	RatQuad.lengthscale: 395.959113336	RatQuad.power: 76661.8450749	Gaussian_noise.variance: 0.404340055978	
+sde_RatQuad	_0冠幅(CW)                 	35		1.3853145848	1.5203471197	0.0657717161	-39.8276732771	RatQuad.variance: 1.8337225565	RatQuad.lengthscale: 466.878250288	RatQuad.power: 76661.6619273	Gaussian_noise.variance: 0.421584106828	
+sde_RatQuad	_0冠幅(CW)                 	40		1.4322634187	1.4398014003	0.0614650206	-46.5653244452	RatQuad.variance: 1.87105225007	RatQuad.lengthscale: 562.928443564	RatQuad.power: 76661.3694453	Gaussian_noise.variance: 0.468663229509	
+sde_RatQuad	_0冠幅(CW)                 	45		1.3598479403	1.4476321923	0.0622027668	-49.1452580140	RatQuad.variance: 1.97539802303	RatQuad.lengthscale: 562.930950709	RatQuad.power: 76661.3694361	Gaussian_noise.variance: 0.408246347989	
+sde_RatQuad	_0冠幅(CW)                 	52		1.3225398469	1.4796732086	0.0635064486	-54.1865967875	RatQuad.variance: 2.19866095354	RatQuad.lengthscale: 600.390634939	RatQuad.power: 76661.2319058	Gaussian_noise.variance: 0.376211322254	
+
+sde_RBF   	_0冠幅(CW)                 	5		0.8544526109	1.3887894581	0.0605185884	-6.8545416027	rbf.variance: 1.47440057312	rbf.lengthscale: 1.16964769258	Gaussian_noise.variance: 0.260371748289	
+sde_RBF   	_0冠幅(CW)                 	10		1.0936003996	1.8275685927	0.0791264378	-11.4957758638	rbf.variance: 1.42654606963	rbf.lengthscale: 1.29920646939	Gaussian_noise.variance: 0.258461393118	
+sde_RBF   	_0冠幅(CW)                 	15		1.1134193019	1.9067983596	0.0835557924	-16.1266733857	rbf.variance: 1.80109822983	rbf.lengthscale: 1.2889104192	Gaussian_noise.variance: 0.25922687778	
+sde_RBF   	_0冠幅(CW)                 	20		1.0320365946	1.7942453732	0.0775540572	-19.7019236395	rbf.variance: 1.93371950283	rbf.lengthscale: 1.44698923335	Gaussian_noise.variance: 0.239884577577	
+sde_RBF   	_0冠幅(CW)                 	25		1.1581812113	1.6565260779	0.0712772487	-25.0678334913	rbf.variance: 2.0979087963	rbf.lengthscale: 1.79925337195	Gaussian_noise.variance: 0.280007348407	
+sde_RBF   	_0冠幅(CW)                 	30		1.3824544158	1.5538615272	0.0677221664	-34.1645443515	rbf.variance: 1.46678687482	rbf.lengthscale: 1.43007864886	Gaussian_noise.variance: 0.404341409391	
+sde_RBF   	_0冠幅(CW)                 	35		1.3853155168	1.5203469702	0.0657717366	-39.8276704477	rbf.variance: 1.83388960251	rbf.lengthscale: 1.68631760809	Gaussian_noise.variance: 0.421578723223	
+sde_RBF   	_0冠幅(CW)                 	40		1.4322638276	1.4398018751	0.0614649768	-46.5653181078	rbf.variance: 1.8709468744	rbf.lengthscale: 2.03307228526	Gaussian_noise.variance: 0.4686632076	
+sde_RBF   	_0冠幅(CW)                 	45		1.3589011146	1.4459881686	0.0622623192	-49.1304416859	rbf.variance: 2.33952504405	rbf.lengthscale: 2.21456634177	Gaussian_noise.variance: 0.406975130264	
+sde_RBF   	_0冠幅(CW)                 	52		1.3225398829	1.4796733236	0.0635064509	-54.1865885131	rbf.variance: 2.19864627334	rbf.lengthscale: 2.16842369664	Gaussian_noise.variance: 0.376211277559	
+
+sde_White 	_0冠幅(CW)                 	5		2.4124676164	1.7088007491	0.0750718436	-7.0946926661	white.variance: 0.500004888653	Gaussian_noise.variance: 0.500004888653	
+sde_White 	_0冠幅(CW)                 	10		2.5803746498	1.6170532184	0.0794836104	-14.1893853321	white.variance: 0.360748819304	Gaussian_noise.variance: 0.639252741752	
+sde_White 	_0冠幅(CW)                 	15		2.4755566954	1.6274277212	0.0808425630	-21.2840779981	white.variance: 0.292105931213	Gaussian_noise.variance: 0.707894006278	
+sde_White 	_0冠幅(CW)                 	20		2.3180016348	1.6670745334	0.0834947126	-28.3787706641	white.variance: 0.250869133336	Gaussian_noise.variance: 0.749131099713	
+sde_White 	_0冠幅(CW)                 	25		2.3488507828	1.8225088934	0.0893840356	-35.4734633301	white.variance: 0.222705139038	Gaussian_noise.variance: 0.777295093363	
+sde_White 	_0冠幅(CW)                 	30		2.3117888779	1.9052234890	0.0924139080	-42.5681559961	white.variance: 0.201993137622	Gaussian_noise.variance: 0.798007059836	
+sde_White 	_0冠幅(CW)                 	35		2.2406369143	1.8811752731	0.0915732704	-49.6628486622	white.variance: 0.185978330286	Gaussian_noise.variance: 0.814021830535	
+sde_White 	_0冠幅(CW)                 	40		2.1757109065	1.8484509280	0.0903793862	-56.7575413282	white.variance: 0.173139087639	Gaussian_noise.variance: 0.826861042157	
+sde_White 	_0冠幅(CW)                 	45		2.2069747107	1.8616843414	0.0908697581	-63.8522339942	white.variance: 0.16256042418	Gaussian_noise.variance: 0.837439680769	
+sde_White 	_0冠幅(CW)                 	52		2.2258211493	1.8148170085	0.0890792184	-73.7848037266	white.variance: 0.153656039162	Gaussian_noise.variance: 0.846344046158	
+
+White     	_0冠幅(CW)                 	5		2.4124676164	1.7088007491	0.0750718436	-7.0946926661	white.variance: 0.500004888653	Gaussian_noise.variance: 0.500004888653	
+White     	_0冠幅(CW)                 	10		2.5803746498	1.6170532184	0.0794836104	-14.1893853321	white.variance: 0.360748819304	Gaussian_noise.variance: 0.639252741752	
+White     	_0冠幅(CW)                 	15		2.4755566954	1.6274277212	0.0808425630	-21.2840779981	white.variance: 0.292105931213	Gaussian_noise.variance: 0.707894006278	
+White     	_0冠幅(CW)                 	20		2.3180016348	1.6670745334	0.0834947126	-28.3787706641	white.variance: 0.250869133336	Gaussian_noise.variance: 0.749131099713	
+White     	_0冠幅(CW)                 	25		2.3488507828	1.8225088934	0.0893840356	-35.4734633301	white.variance: 0.222705139038	Gaussian_noise.variance: 0.777295093363	
+White     	_0冠幅(CW)                 	30		2.3117888779	1.9052234890	0.0924139080	-42.5681559961	white.variance: 0.201993137622	Gaussian_noise.variance: 0.798007059836	
+White     	_0冠幅(CW)                 	35		2.2406369143	1.8811752731	0.0915732704	-49.6628486622	white.variance: 0.185978330286	Gaussian_noise.variance: 0.814021830535	
+White     	_0冠幅(CW)                 	40		2.1757109065	1.8484509280	0.0903793862	-56.7575413282	white.variance: 0.173139087639	Gaussian_noise.variance: 0.826861042157	
+White     	_0冠幅(CW)                 	45		2.2069747107	1.8616843414	0.0908697581	-63.8522339942	white.variance: 0.16256042418	Gaussian_noise.variance: 0.837439680769	
+White     	_0冠幅(CW)                 	52		2.2258211493	1.8148170085	0.0890792184	-73.7848037266	white.variance: 0.153656039162	Gaussian_noise.variance: 0.846344046158	
+

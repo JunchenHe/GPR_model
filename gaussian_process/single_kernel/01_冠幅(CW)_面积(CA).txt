@@ -1,0 +1,211 @@
+kernel		input_dim			train_num	train_rmse	test_rmse	avg_err		log-likelihood	model
+
+Bias      	_0冠幅(CW)_1面积(CA)         	5		2.4124676164	1.7088007491	0.0750718436	-7.0946985435	bias.variance: 2.35099081411e-06	Gaussian_noise.variance: 0.999999952932	
+Bias      	_0冠幅(CW)_1面积(CA)         	10		2.5803746498	1.6170532184	0.0794836104	-14.1893970867	bias.variance: 2.35094048716e-06	Gaussian_noise.variance: 1.00000851736	
+Bias      	_0冠幅(CW)_1面积(CA)         	15		2.4755566954	1.6274277212	0.0808425630	-21.2840956296	bias.variance: 2.35089016295e-06	Gaussian_noise.variance: 1.00000851708	
+Bias      	_0冠幅(CW)_1面积(CA)         	20		2.3180016348	1.6670745334	0.0834947126	-28.3787941721	bias.variance: 2.35083984148e-06	Gaussian_noise.variance: 1.00000851679	
+Bias      	_0冠幅(CW)_1面积(CA)         	25		2.3488507828	1.8225088934	0.0893840356	-35.4734927143	bias.variance: 2.35078952275e-06	Gaussian_noise.variance: 1.00000851651	
+Bias      	_0冠幅(CW)_1面积(CA)         	30		2.3117888779	1.9052234890	0.0924139080	-42.5681912562	bias.variance: 2.35073920675e-06	Gaussian_noise.variance: 1.00000851623	
+Bias      	_0冠幅(CW)_1面积(CA)         	35		2.2406369143	1.8811752731	0.0915732704	-49.6628897978	bias.variance: 2.35068889348e-06	Gaussian_noise.variance: 1.00000851595	
+Bias      	_0冠幅(CW)_1面积(CA)         	40		2.1757109065	1.8484509280	0.0903793862	-56.7575883391	bias.variance: 2.35063858295e-06	Gaussian_noise.variance: 1.00000851567	
+Bias      	_0冠幅(CW)_1面积(CA)         	45		2.2069747107	1.8616843414	0.0908697581	-63.8522868800	bias.variance: 2.35058827516e-06	Gaussian_noise.variance: 1.00000851539	
+Bias      	_0冠幅(CW)_1面积(CA)         	52		2.2258211493	1.8148170085	0.0890792184	-73.7848648373	bias.variance: 2.35053797033e-06	Gaussian_noise.variance: 1.00000851506	
+
+Exponential	_0冠幅(CW)_1面积(CA)         	5		0.2661918080	1.2455876538	0.0568572201	-7.0100240700	Exponential.variance: 1.17178706167	Exponential.lengthscale: 1.26890239545	Gaussian_noise.variance: 0.095767068294	
+Exponential	_0冠幅(CW)_1面积(CA)         	10		0.0190172544	1.3509511439	0.0604702108	-9.6603446906	Exponential.variance: 1.4837315572	Exponential.lengthscale: 2.98865726884	Gaussian_noise.variance: 0.0029801725378	
+Exponential	_0冠幅(CW)_1面积(CA)         	15		0.4781266790	1.2344474249	0.0572507007	-15.3014409457	Exponential.variance: 1.58272159882	Exponential.lengthscale: 3.60363584805	Gaussian_noise.variance: 0.100050779429	
+Exponential	_0冠幅(CW)_1面积(CA)         	20		0.7551133472	1.1920865774	0.0568557923	-20.2907515451	Exponential.variance: 1.63758157671	Exponential.lengthscale: 5.92678235871	Gaussian_noise.variance: 0.182198238744	
+Exponential	_0冠幅(CW)_1面积(CA)         	25		0.8811892253	1.1987790353	0.0575221325	-25.6951484071	Exponential.variance: 1.71684452224	Exponential.lengthscale: 6.97551025765	Gaussian_noise.variance: 0.218595489571	
+Exponential	_0冠幅(CW)_1面积(CA)         	30		0.9328356429	1.1429003360	0.0567492694	-32.3610350383	Exponential.variance: 1.82984106345	Exponential.lengthscale: 6.38086879268	Gaussian_noise.variance: 0.250528230109	
+Exponential	_0冠幅(CW)_1面积(CA)         	35		0.9196649403	1.1481917878	0.0570112338	-37.0657915050	Exponential.variance: 2.04696166956	Exponential.lengthscale: 7.15139374589	Gaussian_noise.variance: 0.251385146535	
+Exponential	_0冠幅(CW)_1面积(CA)         	40		1.0100183657	1.0789000270	0.0533758727	-43.1783427142	Exponential.variance: 2.07234527082	Exponential.lengthscale: 8.65402705445	Gaussian_noise.variance: 0.296012026881	
+Exponential	_0冠幅(CW)_1面积(CA)         	45		0.9658171607	1.0761922861	0.0534216572	-45.5456534949	Exponential.variance: 2.09457046681	Exponential.lengthscale: 9.41368493258	Gaussian_noise.variance: 0.261236410547	
+Exponential	_0冠幅(CW)_1面积(CA)         	52		0.9418336426	1.0708125933	0.0527667058	-49.7410082151	Exponential.variance: 2.16908803637	Exponential.lengthscale: 10.370810242	Gaussian_noise.variance: 0.240051734698	
+
+ExpQuad   	_0冠幅(CW)_1面积(CA)         	5		0.7494455724	1.1810038103	0.0558839368	-6.7342137283	ExpQuad.variance: 1.62678398538	ExpQuad.lengthscale: 1.73413213254	Gaussian_noise.variance: 0.212397914942	
+ExpQuad   	_0冠幅(CW)_1面积(CA)         	10		0.6196720165	1.3909037039	0.0636066483	-8.9197715449	ExpQuad.variance: 2.97788244119	ExpQuad.lengthscale: 2.69260386156	Gaussian_noise.variance: 0.0935060381729	
+ExpQuad   	_0冠幅(CW)_1面积(CA)         	15		0.9313662488	1.3300966581	0.0630100004	-14.2410891355	ExpQuad.variance: 2.34177651366	ExpQuad.lengthscale: 2.63922276175	Gaussian_noise.variance: 0.184987197425	
+ExpQuad   	_0冠幅(CW)_1面积(CA)         	20		0.9396297953	1.2171648516	0.0591372033	-18.0932608286	ExpQuad.variance: 2.40886195476	ExpQuad.lengthscale: 2.89536431127	Gaussian_noise.variance: 0.199598485976	
+ExpQuad   	_0冠幅(CW)_1面积(CA)         	25		1.0420991878	1.1353718093	0.0553466748	-23.1015436747	ExpQuad.variance: 3.83567796739	ExpQuad.lengthscale: 3.82311580775	Gaussian_noise.variance: 0.228262387897	
+ExpQuad   	_0冠幅(CW)_1面积(CA)         	30		1.1554505436	1.0751277206	0.0528446888	-30.2015815025	ExpQuad.variance: 5.22195759332	ExpQuad.lengthscale: 4.0753509383	Gaussian_noise.variance: 0.284136771123	
+ExpQuad   	_0冠幅(CW)_1面积(CA)         	35		1.1351702305	1.0895666333	0.0534501323	-34.6212868864	ExpQuad.variance: 6.04086117945	ExpQuad.lengthscale: 4.34583143372	Gaussian_noise.variance: 0.286756142495	
+ExpQuad   	_0冠幅(CW)_1面积(CA)         	40		1.1350975424	1.0562053311	0.0508160007	-39.8115612915	ExpQuad.variance: 9.13893413582	ExpQuad.lengthscale: 5.26465621069	Gaussian_noise.variance: 0.299490704166	
+ExpQuad   	_0冠幅(CW)_1面积(CA)         	45		1.0910755497	1.0593231585	0.0507321266	-41.6686572416	ExpQuad.variance: 10.3013523896	ExpQuad.lengthscale: 5.53234065695	Gaussian_noise.variance: 0.266346884977	
+ExpQuad   	_0冠幅(CW)_1面积(CA)         	52		1.0536852683	1.0582512606	0.0509233262	-44.9822678291	ExpQuad.variance: 10.9006123685	ExpQuad.lengthscale: 5.5679398045	Gaussian_noise.variance: 0.241994881491	
+
+GridRBF   	_0冠幅(CW)_1面积(CA)         	5		0.7494455724	1.1810038103	0.0558839368	-6.7342137283	gridRBF.variance: 1.62678398538	gridRBF.lengthscale: 1.73413213254	Gaussian_noise.variance: 0.212397914942	
+GridRBF   	_0冠幅(CW)_1面积(CA)         	10		0.6196720165	1.3909037039	0.0636066483	-8.9197715449	gridRBF.variance: 2.97788244119	gridRBF.lengthscale: 2.69260386156	Gaussian_noise.variance: 0.0935060381729	
+GridRBF   	_0冠幅(CW)_1面积(CA)         	15		0.9313662488	1.3300966581	0.0630100004	-14.2410891355	gridRBF.variance: 2.34177651366	gridRBF.lengthscale: 2.63922276175	Gaussian_noise.variance: 0.184987197425	
+GridRBF   	_0冠幅(CW)_1面积(CA)         	20		0.9396297953	1.2171648516	0.0591372033	-18.0932608286	gridRBF.variance: 2.40886195476	gridRBF.lengthscale: 2.89536431127	Gaussian_noise.variance: 0.199598485976	
+GridRBF   	_0冠幅(CW)_1面积(CA)         	25		1.0420991878	1.1353718093	0.0553466748	-23.1015436747	gridRBF.variance: 3.83567796739	gridRBF.lengthscale: 3.82311580775	Gaussian_noise.variance: 0.228262387897	
+GridRBF   	_0冠幅(CW)_1面积(CA)         	30		1.1554505436	1.0751277206	0.0528446888	-30.2015815025	gridRBF.variance: 5.22195759332	gridRBF.lengthscale: 4.0753509383	Gaussian_noise.variance: 0.284136771123	
+GridRBF   	_0冠幅(CW)_1面积(CA)         	35		1.1351702305	1.0895666333	0.0534501323	-34.6212868864	gridRBF.variance: 6.04086117944	gridRBF.lengthscale: 4.34583143372	Gaussian_noise.variance: 0.286756142495	
+GridRBF   	_0冠幅(CW)_1面积(CA)         	40		1.1350975424	1.0562053311	0.0508160007	-39.8115612915	gridRBF.variance: 9.13893413582	gridRBF.lengthscale: 5.26465621069	Gaussian_noise.variance: 0.299490704166	
+GridRBF   	_0冠幅(CW)_1面积(CA)         	45		1.0910755497	1.0593231585	0.0507321266	-41.6686572416	gridRBF.variance: 10.3013523895	gridRBF.lengthscale: 5.53234065695	Gaussian_noise.variance: 0.266346884977	
+GridRBF   	_0冠幅(CW)_1面积(CA)         	52		1.0536852683	1.0582512606	0.0509233262	-44.9822678291	gridRBF.variance: 10.9006123685	gridRBF.lengthscale: 5.5679398045	Gaussian_noise.variance: 0.241994881491	
+
+Linear    	_0冠幅(CW)_1面积(CA)         	5		1.2199119132	1.2173177176	0.0511849406	-5.4474492844	linear.variances: 0.342076060207	Gaussian_noise.variance: 0.314385521349	
+Linear    	_0冠幅(CW)_1面积(CA)         	10		0.8116785866	1.1768464230	0.0521460657	-7.4549861325	linear.variances: 1.29185080304	Gaussian_noise.variance: 0.121999906747	
+Linear    	_0冠幅(CW)_1面积(CA)         	15		0.9904414668	1.1007229897	0.0488882550	-12.1348258583	linear.variances: 1.08277923991	Gaussian_noise.variance: 0.182795882555	
+Linear    	_0冠幅(CW)_1面积(CA)         	20		0.9842416184	1.0401559024	0.0466874616	-15.7633380127	linear.variances: 0.8273411496	Gaussian_noise.variance: 0.198761352882	
+Linear    	_0冠幅(CW)_1面积(CA)         	25		1.0387634390	1.0382411451	0.0466566324	-19.6503245389	linear.variances: 0.745709640898	Gaussian_noise.variance: 0.211370692572	
+Linear    	_0冠幅(CW)_1面积(CA)         	30		1.1654051703	1.0351541988	0.0458076802	-26.6930801413	linear.variances: 0.855152274031	Gaussian_noise.variance: 0.271152746293	
+Linear    	_0冠幅(CW)_1面积(CA)         	35		1.1553467882	1.0441323098	0.0466795152	-31.1831462715	linear.variances: 0.792580175186	Gaussian_noise.variance: 0.281020683797	
+Linear    	_0冠幅(CW)_1面积(CA)         	40		1.1376692747	1.0444995157	0.0465123464	-35.6678577413	linear.variances: 0.830272626492	Gaussian_noise.variance: 0.287047075421	
+Linear    	_0冠幅(CW)_1面积(CA)         	45		1.0968799445	1.0476490107	0.0469768753	-37.3865100837	linear.variances: 0.839070648368	Gaussian_noise.variance: 0.257938858345	
+Linear    	_0冠幅(CW)_1面积(CA)         	52		1.0633792879	1.0485317782	0.0466736618	-40.6369302440	linear.variances: 0.901869242101	Gaussian_noise.variance: 0.237013227147	
+
+Matern32  	_0冠幅(CW)_1面积(CA)         	5		0.7674267138	1.1694001611	0.0556039394	-6.9053315060	Mat32.variance: 1.29712357051	Mat32.lengthscale: 1.80228686222	Gaussian_noise.variance: 0.247747052475	
+Matern32  	_0冠幅(CW)_1面积(CA)         	10		0.4734920725	1.4009246393	0.0642107882	-9.3971939384	Mat32.variance: 1.76317882882	Mat32.lengthscale: 2.25579256701	Gaussian_noise.variance: 0.0749905842198	
+Matern32  	_0冠幅(CW)_1面积(CA)         	15		0.8719882620	1.3099107381	0.0623474724	-14.7124748313	Mat32.variance: 2.23783768819	Mat32.lengthscale: 3.45157059762	Gaussian_noise.variance: 0.178162163983	
+Matern32  	_0冠幅(CW)_1面积(CA)         	20		0.9181279437	1.2118020566	0.0588398959	-18.7518317284	Mat32.variance: 2.92858469749	Mat32.lengthscale: 4.78448676483	Gaussian_noise.variance: 0.200494248936	
+Matern32  	_0冠幅(CW)_1面积(CA)         	25		1.0322190560	1.1481668106	0.0562484860	-23.8751510827	Mat32.variance: 4.87318060178	Mat32.lengthscale: 6.99081539473	Gaussian_noise.variance: 0.232395605573	
+Matern32  	_0冠幅(CW)_1面积(CA)         	30		1.1427865869	1.0863172357	0.0541717502	-30.9161392154	Mat32.variance: 5.87527381489	Mat32.lengthscale: 7.20615311222	Gaussian_noise.variance: 0.287763092404	
+Matern32  	_0冠幅(CW)_1面积(CA)         	35		1.1177601551	1.0958143958	0.0546308256	-35.3281953332	Mat32.variance: 7.61484579359	Mat32.lengthscale: 8.11898207866	Gaussian_noise.variance: 0.286985857607	
+Matern32  	_0冠幅(CW)_1面积(CA)         	40		1.1321089413	1.0566854904	0.0515960749	-40.7955474769	Mat32.variance: 12.4752636031	Mat32.lengthscale: 10.8456971212	Gaussian_noise.variance: 0.305345946273	
+Matern32  	_0冠幅(CW)_1面积(CA)         	45		1.0882666955	1.0597676880	0.0515218184	-42.7558691848	Mat32.variance: 15.7073841584	Mat32.lengthscale: 12.3613307833	Gaussian_noise.variance: 0.27116898143	
+Matern32  	_0冠幅(CW)_1面积(CA)         	52		1.0536826577	1.0582839333	0.0515554561	-46.2638403157	Mat32.variance: 21.3570050746	Mat32.lengthscale: 14.5120967799	Gaussian_noise.variance: 0.246847989605	
+
+Matern52  	_0冠幅(CW)_1面积(CA)         	5		0.7792408437	1.1640385078	0.0552054371	-6.8450139396	Mat52.variance: 1.44118894846	Mat52.lengthscale: 1.85763637957	Gaussian_noise.variance: 0.238792176913	
+Matern52  	_0冠幅(CW)_1面积(CA)         	10		0.6171217819	1.3862870697	0.0637802824	-9.3000875990	Mat52.variance: 2.70302685441	Mat52.lengthscale: 3.15539159705	Gaussian_noise.variance: 0.0982797264558	
+Matern52  	_0冠幅(CW)_1面积(CA)         	15		0.9199287457	1.3220087044	0.0627633384	-14.5482785978	Mat52.variance: 2.54497230969	Mat52.lengthscale: 3.39592252839	Gaussian_noise.variance: 0.185981585697	
+Matern52  	_0冠幅(CW)_1面积(CA)         	20		0.9346702840	1.2114797071	0.0589180931	-18.4479216155	Mat52.variance: 2.95025554906	Mat52.lengthscale: 4.06760737016	Gaussian_noise.variance: 0.201019679578	
+Matern52  	_0冠幅(CW)_1面积(CA)         	25		1.0383521791	1.1355917216	0.0555834086	-23.4659420310	Mat52.variance: 5.12254076893	Mat52.lengthscale: 5.73265950528	Gaussian_noise.variance: 0.229380472757	
+Matern52  	_0冠幅(CW)_1面积(CA)         	30		1.1500843152	1.0767073483	0.0533577962	-30.5292769150	Mat52.variance: 6.73237470204	Mat52.lengthscale: 6.06802168055	Gaussian_noise.variance: 0.284718167173	
+Matern52  	_0冠幅(CW)_1面积(CA)         	35		1.1268530580	1.0891763954	0.0539362100	-34.9229117679	Mat52.variance: 7.97097220086	Mat52.lengthscale: 6.48050539252	Gaussian_noise.variance: 0.285640193491	
+Matern52  	_0冠幅(CW)_1面积(CA)         	40		1.1330252231	1.0540770124	0.0510533258	-40.2274995176	Mat52.variance: 14.0272683791	Mat52.lengthscale: 8.59764369716	Gaussian_noise.variance: 0.300387295308	
+Matern52  	_0冠幅(CW)_1面积(CA)         	45		1.0892019776	1.0576864861	0.0509484335	-42.1084615424	Mat52.variance: 16.792937429	Mat52.lengthscale: 9.36283421558	Gaussian_noise.variance: 0.26702275355	
+Matern52  	_0冠幅(CW)_1面积(CA)         	52		1.0527167689	1.0562053508	0.0510497221	-45.4830728730	Mat52.variance: 20.0454742145	Mat52.lengthscale: 10.0415627098	Gaussian_noise.variance: 0.242745773379	
+
+MLP       	_0冠幅(CW)_1面积(CA)         	5		1.1358630510	1.1886176895	0.0505733691	-5.2397200584	mlp.variance: 4.01912720126	mlp.weight_variance: 0.273717518847	mlp.bias_variance: 1.0819781426e-09	Gaussian_noise.variance: 0.279227386465	
+MLP       	_0冠幅(CW)_1面积(CA)         	10		0.7966363208	1.1271763604	0.0514227799	-7.0770732402	mlp.variance: 13.9124296955	mlp.weight_variance: 0.116782948868	mlp.bias_variance: 1.08196894981e-09	Gaussian_noise.variance: 0.121012671001	
+MLP       	_0冠幅(CW)_1面积(CA)         	15		0.9983809807	1.0908380317	0.0496572587	-12.0459231582	mlp.variance: 27.6577599706	mlp.weight_variance: 0.0522586971906	mlp.bias_variance: 1.08119968893e-09	Gaussian_noise.variance: 0.187013081924	
+MLP       	_0冠幅(CW)_1面积(CA)         	20		0.9887187417	1.0441664188	0.0470176180	-15.7323960344	mlp.variance: 44.607736421	mlp.weight_variance: 0.027257935951	mlp.bias_variance: 1.06406898889e-09	Gaussian_noise.variance: 0.20088782864	
+MLP       	_0冠幅(CW)_1面积(CA)         	25		1.0387682267	1.0382427193	0.0466566834	-19.6503409960	mlp.variance: 463973.42844	mlp.weight_variance: 2.52346250758e-06	mlp.bias_variance: 2.60612842641e-124	Gaussian_noise.variance: 0.21136697382	
+MLP       	_0冠幅(CW)_1面积(CA)         	30		1.1654064638	1.0351545917	0.0458077055	-26.6931006497	mlp.variance: 463973.42844	mlp.weight_variance: 2.8951442016e-06	mlp.bias_variance: 2.60612842641e-124	Gaussian_noise.variance: 0.271154834793	
+MLP       	_0冠幅(CW)_1面积(CA)         	35		1.1553479940	1.0441324875	0.0466795548	-31.1831662495	mlp.variance: 463973.42844	mlp.weight_variance: 2.68322840956e-06	mlp.bias_variance: 2.60612842641e-124	Gaussian_noise.variance: 0.281021183925	
+MLP       	_0冠幅(CW)_1面积(CA)         	40		1.1376703533	1.0444994820	0.0465123650	-35.6678746944	mlp.variance: 463973.42844	mlp.weight_variance: 2.81076045411e-06	mlp.bias_variance: 2.60612842641e-124	Gaussian_noise.variance: 0.287047432992	
+MLP       	_0冠幅(CW)_1面积(CA)         	45		1.0968809508	1.0476490134	0.0469768606	-37.3865327677	mlp.variance: 463973.42844	mlp.weight_variance: 2.84053508976e-06	mlp.bias_variance: 2.60612842641e-124	Gaussian_noise.variance: 0.2579378609	
+MLP       	_0冠幅(CW)_1面积(CA)         	52		1.0633797856	1.0485316958	0.0466736813	-40.6369378608	mlp.variance: 463973.42844	mlp.weight_variance: 3.05318474454e-06	mlp.bias_variance: 2.60612842641e-124	Gaussian_noise.variance: 0.237012823512	
+
+OU        	_0冠幅(CW)_1面积(CA)         	5		0.2661918080	1.2455876538	0.0568572201	-7.0100240700	OU.variance: 1.17178706167	OU.lengthscale: 1.26890239545	Gaussian_noise.variance: 0.095767068294	
+OU        	_0冠幅(CW)_1面积(CA)         	10		0.0190172544	1.3509511439	0.0604702108	-9.6603446906	OU.variance: 1.4837315572	OU.lengthscale: 2.98865726884	Gaussian_noise.variance: 0.0029801725378	
+OU        	_0冠幅(CW)_1面积(CA)         	15		0.4781266790	1.2344474249	0.0572507007	-15.3014409457	OU.variance: 1.58272159882	OU.lengthscale: 3.60363584805	Gaussian_noise.variance: 0.100050779429	
+OU        	_0冠幅(CW)_1面积(CA)         	20		0.7551133472	1.1920865774	0.0568557923	-20.2907515451	OU.variance: 1.63758157671	OU.lengthscale: 5.92678235871	Gaussian_noise.variance: 0.182198238744	
+OU        	_0冠幅(CW)_1面积(CA)         	25		0.8811892253	1.1987790353	0.0575221325	-25.6951484071	OU.variance: 1.71684452224	OU.lengthscale: 6.97551025765	Gaussian_noise.variance: 0.218595489571	
+OU        	_0冠幅(CW)_1面积(CA)         	30		0.9328356429	1.1429003360	0.0567492694	-32.3610350383	OU.variance: 1.82984106345	OU.lengthscale: 6.38086879268	Gaussian_noise.variance: 0.250528230109	
+OU        	_0冠幅(CW)_1面积(CA)         	35		0.9196649403	1.1481917878	0.0570112338	-37.0657915050	OU.variance: 2.04696166956	OU.lengthscale: 7.15139374589	Gaussian_noise.variance: 0.251385146535	
+OU        	_0冠幅(CW)_1面积(CA)         	40		1.0100183657	1.0789000270	0.0533758727	-43.1783427142	OU.variance: 2.07234527082	OU.lengthscale: 8.65402705445	Gaussian_noise.variance: 0.296012026881	
+OU        	_0冠幅(CW)_1面积(CA)         	45		0.9658171607	1.0761922861	0.0534216572	-45.5456534949	OU.variance: 2.09457046681	OU.lengthscale: 9.41368493258	Gaussian_noise.variance: 0.261236410547	
+OU        	_0冠幅(CW)_1面积(CA)         	52		0.9418336426	1.0708125933	0.0527667058	-49.7410082151	OU.variance: 2.16908803637	OU.lengthscale: 10.370810242	Gaussian_noise.variance: 0.240051734698	
+
+Poly      	_0冠幅(CW)_1面积(CA)         	5		0.9988410070	1.4832789796	0.0595711123	-6.3806545304	poly.variance: 0.512458127637	poly.scale: 0.348092042791	poly.bias: 0.276643611394	Gaussian_noise.variance: 0.273140690336	
+Poly      	_0冠幅(CW)_1面积(CA)         	10		0.5776769416	1.3376293292	0.0620323894	-8.8508127249	poly.variance: 0.6480364628	poly.scale: 0.106575763681	poly.bias: 1.31469646352	Gaussian_noise.variance: 0.0824898722107	
+Poly      	_0冠幅(CW)_1面积(CA)         	15		0.8946422457	1.2686735774	0.0618690052	-14.0751676240	poly.variance: 0.602879724265	poly.scale: 0.123177395463	poly.bias: 1.09719476012	Gaussian_noise.variance: 0.173055249894	
+Poly      	_0冠幅(CW)_1面积(CA)         	20		0.9213026183	1.1780948751	0.0584759982	-17.8439079152	poly.variance: 0.580067888185	poly.scale: 0.102840717406	poly.bias: 1.09738348589	Gaussian_noise.variance: 0.193658336924	
+Poly      	_0冠幅(CW)_1面积(CA)         	25		1.0088982065	1.1609020596	0.0577016565	-22.3275994464	poly.variance: 0.552238547474	poly.scale: 0.113105656544	poly.bias: 0.952739062622	Gaussian_noise.variance: 0.218557655888	
+Poly      	_0冠幅(CW)_1面积(CA)         	30		1.1403667665	1.1064543521	0.0555329990	-29.4958006256	poly.variance: 0.572733468945	poly.scale: 0.0963663525804	poly.bias: 1.10164992302	Gaussian_noise.variance: 0.279969133389	
+Poly      	_0冠幅(CW)_1面积(CA)         	35		1.1140434913	1.1124071039	0.0557844905	-33.8018127865	poly.variance: 0.575740051693	poly.scale: 0.101783526243	poly.bias: 1.08810600096	Gaussian_noise.variance: 0.280125228581	
+Poly      	_0冠幅(CW)_1面积(CA)         	40		1.1246674578	1.0636436413	0.0523155542	-39.2545427714	poly.variance: 0.617021412428	poly.scale: 0.0675198092432	poly.bias: 1.431659274	Gaussian_noise.variance: 0.296474039664	
+Poly      	_0冠幅(CW)_1面积(CA)         	45		1.0848414603	1.0649628303	0.0517044180	-41.1537497865	poly.variance: 0.632989377217	poly.scale: 0.0580258624524	poly.bias: 1.5518976088	Gaussian_noise.variance: 0.264819002329	
+Poly      	_0冠幅(CW)_1面积(CA)         	52		1.0501194870	1.0584228831	0.0513916689	-44.6479007158	poly.variance: 0.680782098365	poly.scale: 0.0459102587184	poly.bias: 1.81088302607	Gaussian_noise.variance: 0.240993869825	
+
+RBF       	_0冠幅(CW)_1面积(CA)         	5		0.7494455724	1.1810038103	0.0558839368	-6.7342137283	rbf.variance: 1.62678398538	rbf.lengthscale: 1.73413213254	Gaussian_noise.variance: 0.212397914942	
+RBF       	_0冠幅(CW)_1面积(CA)         	10		0.6196720165	1.3909037039	0.0636066483	-8.9197715449	rbf.variance: 2.97788244119	rbf.lengthscale: 2.69260386156	Gaussian_noise.variance: 0.0935060381729	
+RBF       	_0冠幅(CW)_1面积(CA)         	15		0.9313662488	1.3300966581	0.0630100004	-14.2410891355	rbf.variance: 2.34177651366	rbf.lengthscale: 2.63922276175	Gaussian_noise.variance: 0.184987197425	
+RBF       	_0冠幅(CW)_1面积(CA)         	20		0.9396297953	1.2171648516	0.0591372033	-18.0932608286	rbf.variance: 2.40886195476	rbf.lengthscale: 2.89536431127	Gaussian_noise.variance: 0.199598485976	
+RBF       	_0冠幅(CW)_1面积(CA)         	25		1.0420991878	1.1353718093	0.0553466748	-23.1015436747	rbf.variance: 3.83567796739	rbf.lengthscale: 3.82311580775	Gaussian_noise.variance: 0.228262387897	
+RBF       	_0冠幅(CW)_1面积(CA)         	30		1.1554505436	1.0751277206	0.0528446888	-30.2015815025	rbf.variance: 5.22195759332	rbf.lengthscale: 4.0753509383	Gaussian_noise.variance: 0.284136771123	
+RBF       	_0冠幅(CW)_1面积(CA)         	35		1.1351702305	1.0895666333	0.0534501323	-34.6212868864	rbf.variance: 6.04086117945	rbf.lengthscale: 4.34583143372	Gaussian_noise.variance: 0.286756142495	
+RBF       	_0冠幅(CW)_1面积(CA)         	40		1.1350975424	1.0562053311	0.0508160007	-39.8115612915	rbf.variance: 9.13893413583	rbf.lengthscale: 5.26465621069	Gaussian_noise.variance: 0.299490704166	
+RBF       	_0冠幅(CW)_1面积(CA)         	45		1.0910755497	1.0593231585	0.0507321266	-41.6686572416	rbf.variance: 10.3013523895	rbf.lengthscale: 5.53234065695	Gaussian_noise.variance: 0.266346884977	
+RBF       	_0冠幅(CW)_1面积(CA)         	52		1.0536852683	1.0582512606	0.0509233262	-44.9822678291	rbf.variance: 10.9006123685	rbf.lengthscale: 5.5679398045	Gaussian_noise.variance: 0.241994881491	
+
+sde_Bias  	_0冠幅(CW)_1面积(CA)         	5		2.4124676164	1.7088007491	0.0750718436	-7.0946985435	bias.variance: 2.35099081411e-06	Gaussian_noise.variance: 0.999999952932	
+sde_Bias  	_0冠幅(CW)_1面积(CA)         	10		2.5803746498	1.6170532184	0.0794836104	-14.1893970867	bias.variance: 2.35094048716e-06	Gaussian_noise.variance: 1.00000851736	
+sde_Bias  	_0冠幅(CW)_1面积(CA)         	15		2.4755566954	1.6274277212	0.0808425630	-21.2840956296	bias.variance: 2.35089016295e-06	Gaussian_noise.variance: 1.00000851708	
+sde_Bias  	_0冠幅(CW)_1面积(CA)         	20		2.3180016348	1.6670745334	0.0834947126	-28.3787941721	bias.variance: 2.35083984148e-06	Gaussian_noise.variance: 1.00000851679	
+sde_Bias  	_0冠幅(CW)_1面积(CA)         	25		2.3488507828	1.8225088934	0.0893840356	-35.4734927143	bias.variance: 2.35078952275e-06	Gaussian_noise.variance: 1.00000851651	
+sde_Bias  	_0冠幅(CW)_1面积(CA)         	30		2.3117888779	1.9052234890	0.0924139080	-42.5681912562	bias.variance: 2.35073920675e-06	Gaussian_noise.variance: 1.00000851623	
+sde_Bias  	_0冠幅(CW)_1面积(CA)         	35		2.2406369143	1.8811752731	0.0915732704	-49.6628897978	bias.variance: 2.35068889348e-06	Gaussian_noise.variance: 1.00000851595	
+sde_Bias  	_0冠幅(CW)_1面积(CA)         	40		2.1757109065	1.8484509280	0.0903793862	-56.7575883391	bias.variance: 2.35063858295e-06	Gaussian_noise.variance: 1.00000851567	
+sde_Bias  	_0冠幅(CW)_1面积(CA)         	45		2.2069747107	1.8616843414	0.0908697581	-63.8522868800	bias.variance: 2.35058827516e-06	Gaussian_noise.variance: 1.00000851539	
+sde_Bias  	_0冠幅(CW)_1面积(CA)         	52		2.2258211493	1.8148170085	0.0890792184	-73.7848648373	bias.variance: 2.35053797033e-06	Gaussian_noise.variance: 1.00000851506	
+
+sde_Exponential	_0冠幅(CW)_1面积(CA)         	5		0.2661918080	1.2455876538	0.0568572201	-7.0100240700	Exponential.variance: 1.17178706167	Exponential.lengthscale: 1.26890239545	Gaussian_noise.variance: 0.095767068294	
+sde_Exponential	_0冠幅(CW)_1面积(CA)         	10		0.0190172544	1.3509511439	0.0604702108	-9.6603446906	Exponential.variance: 1.4837315572	Exponential.lengthscale: 2.98865726884	Gaussian_noise.variance: 0.0029801725378	
+sde_Exponential	_0冠幅(CW)_1面积(CA)         	15		0.4781266790	1.2344474249	0.0572507007	-15.3014409457	Exponential.variance: 1.58272159882	Exponential.lengthscale: 3.60363584805	Gaussian_noise.variance: 0.100050779429	
+sde_Exponential	_0冠幅(CW)_1面积(CA)         	20		0.7551133472	1.1920865774	0.0568557923	-20.2907515451	Exponential.variance: 1.63758157671	Exponential.lengthscale: 5.92678235871	Gaussian_noise.variance: 0.182198238744	
+sde_Exponential	_0冠幅(CW)_1面积(CA)         	25		0.8811892253	1.1987790353	0.0575221325	-25.6951484071	Exponential.variance: 1.71684452224	Exponential.lengthscale: 6.97551025765	Gaussian_noise.variance: 0.218595489571	
+sde_Exponential	_0冠幅(CW)_1面积(CA)         	30		0.9328356429	1.1429003360	0.0567492694	-32.3610350383	Exponential.variance: 1.82984106345	Exponential.lengthscale: 6.38086879268	Gaussian_noise.variance: 0.250528230109	
+sde_Exponential	_0冠幅(CW)_1面积(CA)         	35		0.9196649403	1.1481917878	0.0570112338	-37.0657915050	Exponential.variance: 2.04696166956	Exponential.lengthscale: 7.15139374589	Gaussian_noise.variance: 0.251385146535	
+sde_Exponential	_0冠幅(CW)_1面积(CA)         	40		1.0100183657	1.0789000270	0.0533758727	-43.1783427142	Exponential.variance: 2.07234527082	Exponential.lengthscale: 8.65402705445	Gaussian_noise.variance: 0.296012026881	
+sde_Exponential	_0冠幅(CW)_1面积(CA)         	45		0.9658171607	1.0761922861	0.0534216572	-45.5456534949	Exponential.variance: 2.09457046681	Exponential.lengthscale: 9.41368493258	Gaussian_noise.variance: 0.261236410547	
+sde_Exponential	_0冠幅(CW)_1面积(CA)         	52		0.9418336426	1.0708125933	0.0527667058	-49.7410082151	Exponential.variance: 2.16908803637	Exponential.lengthscale: 10.370810242	Gaussian_noise.variance: 0.240051734698	
+
+sde_Matern32	_0冠幅(CW)_1面积(CA)         	5		0.7674267138	1.1694001611	0.0556039394	-6.9053315060	Mat32.variance: 1.29712357051	Mat32.lengthscale: 1.80228686222	Gaussian_noise.variance: 0.247747052475	
+sde_Matern32	_0冠幅(CW)_1面积(CA)         	10		0.4734920725	1.4009246393	0.0642107882	-9.3971939384	Mat32.variance: 1.76317882882	Mat32.lengthscale: 2.25579256701	Gaussian_noise.variance: 0.0749905842198	
+sde_Matern32	_0冠幅(CW)_1面积(CA)         	15		0.8719882620	1.3099107381	0.0623474724	-14.7124748313	Mat32.variance: 2.23783768819	Mat32.lengthscale: 3.45157059762	Gaussian_noise.variance: 0.178162163983	
+sde_Matern32	_0冠幅(CW)_1面积(CA)         	20		0.9181279437	1.2118020566	0.0588398959	-18.7518317284	Mat32.variance: 2.92858469749	Mat32.lengthscale: 4.78448676483	Gaussian_noise.variance: 0.200494248936	
+sde_Matern32	_0冠幅(CW)_1面积(CA)         	25		1.0322190560	1.1481668106	0.0562484860	-23.8751510827	Mat32.variance: 4.87318060178	Mat32.lengthscale: 6.99081539473	Gaussian_noise.variance: 0.232395605573	
+sde_Matern32	_0冠幅(CW)_1面积(CA)         	30		1.1427865869	1.0863172357	0.0541717502	-30.9161392154	Mat32.variance: 5.87527381489	Mat32.lengthscale: 7.20615311222	Gaussian_noise.variance: 0.287763092404	
+sde_Matern32	_0冠幅(CW)_1面积(CA)         	35		1.1177601551	1.0958143958	0.0546308256	-35.3281953332	Mat32.variance: 7.61484579365	Mat32.lengthscale: 8.11898207869	Gaussian_noise.variance: 0.286985857607	
+sde_Matern32	_0冠幅(CW)_1面积(CA)         	40		1.1321089413	1.0566854904	0.0515960749	-40.7955474769	Mat32.variance: 12.475263603	Mat32.lengthscale: 10.8456971212	Gaussian_noise.variance: 0.305345946273	
+sde_Matern32	_0冠幅(CW)_1面积(CA)         	45		1.0882666955	1.0597676880	0.0515218184	-42.7558691848	Mat32.variance: 15.7073841584	Mat32.lengthscale: 12.3613307833	Gaussian_noise.variance: 0.27116898143	
+sde_Matern32	_0冠幅(CW)_1面积(CA)         	52		1.0536826577	1.0582839333	0.0515554561	-46.2638403157	Mat32.variance: 21.3570050743	Mat32.lengthscale: 14.5120967798	Gaussian_noise.variance: 0.246847989605	
+
+sde_Matern52	_0冠幅(CW)_1面积(CA)         	5		0.7792408437	1.1640385078	0.0552054371	-6.8450139396	Mat52.variance: 1.44118894846	Mat52.lengthscale: 1.85763637957	Gaussian_noise.variance: 0.238792176913	
+sde_Matern52	_0冠幅(CW)_1面积(CA)         	10		0.6171217819	1.3862870697	0.0637802824	-9.3000875990	Mat52.variance: 2.70302685441	Mat52.lengthscale: 3.15539159705	Gaussian_noise.variance: 0.0982797264558	
+sde_Matern52	_0冠幅(CW)_1面积(CA)         	15		0.9199287457	1.3220087044	0.0627633384	-14.5482785978	Mat52.variance: 2.54497230969	Mat52.lengthscale: 3.39592252839	Gaussian_noise.variance: 0.185981585697	
+sde_Matern52	_0冠幅(CW)_1面积(CA)         	20		0.9346702840	1.2114797071	0.0589180931	-18.4479216155	Mat52.variance: 2.95025554906	Mat52.lengthscale: 4.06760737016	Gaussian_noise.variance: 0.201019679578	
+sde_Matern52	_0冠幅(CW)_1面积(CA)         	25		1.0383521791	1.1355917216	0.0555834086	-23.4659420310	Mat52.variance: 5.12254076893	Mat52.lengthscale: 5.73265950528	Gaussian_noise.variance: 0.229380472757	
+sde_Matern52	_0冠幅(CW)_1面积(CA)         	30		1.1500843152	1.0767073483	0.0533577962	-30.5292769150	Mat52.variance: 6.73237470204	Mat52.lengthscale: 6.06802168055	Gaussian_noise.variance: 0.284718167173	
+sde_Matern52	_0冠幅(CW)_1面积(CA)         	35		1.1268530580	1.0891763954	0.0539362100	-34.9229117679	Mat52.variance: 7.97097220087	Mat52.lengthscale: 6.48050539252	Gaussian_noise.variance: 0.285640193491	
+sde_Matern52	_0冠幅(CW)_1面积(CA)         	40		1.1330252231	1.0540770124	0.0510533258	-40.2274995176	Mat52.variance: 14.0272683791	Mat52.lengthscale: 8.59764369716	Gaussian_noise.variance: 0.300387295308	
+sde_Matern52	_0冠幅(CW)_1面积(CA)         	45		1.0892019776	1.0576864861	0.0509484335	-42.1084615424	Mat52.variance: 16.792937429	Mat52.lengthscale: 9.36283421559	Gaussian_noise.variance: 0.26702275355	
+sde_Matern52	_0冠幅(CW)_1面积(CA)         	52		1.0527167689	1.0562053508	0.0510497221	-45.4830728730	Mat52.variance: 20.0454742146	Mat52.lengthscale: 10.0415627098	Gaussian_noise.variance: 0.242745773379	
+
+sde_RatQuad	_0冠幅(CW)_1面积(CA)         	5		0.7494674557	1.1809852676	0.0558829209	-6.7342160261	RatQuad.variance: 1.62681280264	RatQuad.lengthscale: 581.806191625	RatQuad.power: 112534.241805	Gaussian_noise.variance: 0.212405399641	
+sde_RatQuad	_0冠幅(CW)_1面积(CA)         	10		0.6196717104	1.3909039646	0.0636066445	-8.9197786901	RatQuad.variance: 2.9778813302	RatQuad.lengthscale: 903.260239548	RatQuad.power: 112533.410716	Gaussian_noise.variance: 0.093505287603	
+sde_RatQuad	_0冠幅(CW)_1面积(CA)         	15		0.9302790454	1.3269753016	0.0629272901	-14.2418599645	RatQuad.variance: 2.4393671834	RatQuad.lengthscale: 903.262837034	RatQuad.power: 112533.410706	Gaussian_noise.variance: 0.184380186168	
+sde_RatQuad	_0冠幅(CW)_1面积(CA)         	20		0.9396321524	1.2171662354	0.0591371844	-18.0932662763	RatQuad.variance: 2.40857149163	RatQuad.lengthscale: 971.257109661	RatQuad.power: 112533.137833	Gaussian_noise.variance: 0.199600570134	
+sde_RatQuad	_0冠幅(CW)_1面积(CA)         	25		1.0420978898	1.1353706869	0.0553466612	-23.1015484763	RatQuad.variance: 3.83588466631	RatQuad.lengthscale: 1282.50367012	RatQuad.power: 112531.79467	Gaussian_noise.variance: 0.228259964038	
+sde_RatQuad	_0冠幅(CW)_1面积(CA)         	30		1.1575976120	1.0778988899	0.0530126243	-30.2063389250	RatQuad.variance: 4.51983930337	RatQuad.lengthscale: 1282.5003721	RatQuad.power: 112531.794689	Gaussian_noise.variance: 0.285588512011	
+sde_RatQuad	_0冠幅(CW)_1面积(CA)         	35		1.1383672499	1.0946120559	0.0537602624	-34.6414207901	RatQuad.variance: 4.54777779056	RatQuad.lengthscale: 1282.50425982	RatQuad.power: 112531.794667	Gaussian_noise.variance: 0.289137489909	
+sde_RatQuad	_0冠幅(CW)_1面积(CA)         	40		1.1350972899	1.0562049609	0.0508159411	-39.8115662209	RatQuad.variance: 9.13951978321	RatQuad.lengthscale: 1766.13075059	RatQuad.power: 112529.038801	Gaussian_noise.variance: 0.299489940823	
+sde_RatQuad	_0冠幅(CW)_1面积(CA)         	45		1.0920308391	1.0603968751	0.0508396640	-41.6711486883	RatQuad.variance: 9.13804690963	RatQuad.lengthscale: 1766.1307476	RatQuad.power: 112529.038801	Gaussian_noise.variance: 0.266970873421	
+sde_RatQuad	_0冠幅(CW)_1面积(CA)         	52		1.0544484618	1.0593995656	0.0510335583	-44.9856029395	RatQuad.variance: 9.55659627831	RatQuad.lengthscale: 1766.1291248	RatQuad.power: 112529.038813	Gaussian_noise.variance: 0.242522876175	
+
+sde_RBF   	_0冠幅(CW)_1面积(CA)         	5		0.7494455724	1.1810038103	0.0558839368	-6.7342137283	rbf.variance: 1.62678398538	rbf.lengthscale: 1.73413213254	Gaussian_noise.variance: 0.212397914942	
+sde_RBF   	_0冠幅(CW)_1面积(CA)         	10		0.6196720165	1.3909037039	0.0636066483	-8.9197715449	rbf.variance: 2.97788244119	rbf.lengthscale: 2.69260386156	Gaussian_noise.variance: 0.0935060381729	
+sde_RBF   	_0冠幅(CW)_1面积(CA)         	15		0.9313662488	1.3300966581	0.0630100004	-14.2410891355	rbf.variance: 2.34177651366	rbf.lengthscale: 2.63922276175	Gaussian_noise.variance: 0.184987197425	
+sde_RBF   	_0冠幅(CW)_1面积(CA)         	20		0.9396297953	1.2171648516	0.0591372033	-18.0932608286	rbf.variance: 2.40886195476	rbf.lengthscale: 2.89536431127	Gaussian_noise.variance: 0.199598485976	
+sde_RBF   	_0冠幅(CW)_1面积(CA)         	25		1.0420991878	1.1353718093	0.0553466748	-23.1015436747	rbf.variance: 3.83567796739	rbf.lengthscale: 3.82311580775	Gaussian_noise.variance: 0.228262387897	
+sde_RBF   	_0冠幅(CW)_1面积(CA)         	30		1.1554505436	1.0751277206	0.0528446888	-30.2015815025	rbf.variance: 5.22195759332	rbf.lengthscale: 4.0753509383	Gaussian_noise.variance: 0.284136771123	
+sde_RBF   	_0冠幅(CW)_1面积(CA)         	35		1.1351702305	1.0895666333	0.0534501323	-34.6212868864	rbf.variance: 6.04086117945	rbf.lengthscale: 4.34583143372	Gaussian_noise.variance: 0.286756142495	
+sde_RBF   	_0冠幅(CW)_1面积(CA)         	40		1.1350975424	1.0562053311	0.0508160007	-39.8115612915	rbf.variance: 9.13893413582	rbf.lengthscale: 5.26465621069	Gaussian_noise.variance: 0.299490704166	
+sde_RBF   	_0冠幅(CW)_1面积(CA)         	45		1.0910755497	1.0593231585	0.0507321266	-41.6686572416	rbf.variance: 10.3013523895	rbf.lengthscale: 5.53234065695	Gaussian_noise.variance: 0.266346884977	
+sde_RBF   	_0冠幅(CW)_1面积(CA)         	52		1.0536852683	1.0582512606	0.0509233262	-44.9822678291	rbf.variance: 10.9006123685	rbf.lengthscale: 5.5679398045	Gaussian_noise.variance: 0.241994881491	
+
+sde_White 	_0冠幅(CW)_1面积(CA)         	5		2.4124676164	1.7088007491	0.0750718436	-7.0946926661	white.variance: 0.500004888653	Gaussian_noise.variance: 0.500004888653	
+sde_White 	_0冠幅(CW)_1面积(CA)         	10		2.5803746498	1.6170532184	0.0794836104	-14.1893853321	white.variance: 0.360748819304	Gaussian_noise.variance: 0.639252741752	
+sde_White 	_0冠幅(CW)_1面积(CA)         	15		2.4755566954	1.6274277212	0.0808425630	-21.2840779981	white.variance: 0.292105931213	Gaussian_noise.variance: 0.707894006278	
+sde_White 	_0冠幅(CW)_1面积(CA)         	20		2.3180016348	1.6670745334	0.0834947126	-28.3787706641	white.variance: 0.250869133336	Gaussian_noise.variance: 0.749131099713	
+sde_White 	_0冠幅(CW)_1面积(CA)         	25		2.3488507828	1.8225088934	0.0893840356	-35.4734633301	white.variance: 0.222705139038	Gaussian_noise.variance: 0.777295093363	
+sde_White 	_0冠幅(CW)_1面积(CA)         	30		2.3117888779	1.9052234890	0.0924139080	-42.5681559961	white.variance: 0.201993137622	Gaussian_noise.variance: 0.798007059836	
+sde_White 	_0冠幅(CW)_1面积(CA)         	35		2.2406369143	1.8811752731	0.0915732704	-49.6628486622	white.variance: 0.185978330286	Gaussian_noise.variance: 0.814021830535	
+sde_White 	_0冠幅(CW)_1面积(CA)         	40		2.1757109065	1.8484509280	0.0903793862	-56.7575413282	white.variance: 0.173139087639	Gaussian_noise.variance: 0.826861042157	
+sde_White 	_0冠幅(CW)_1面积(CA)         	45		2.2069747107	1.8616843414	0.0908697581	-63.8522339942	white.variance: 0.16256042418	Gaussian_noise.variance: 0.837439680769	
+sde_White 	_0冠幅(CW)_1面积(CA)         	52		2.2258211493	1.8148170085	0.0890792184	-73.7848037266	white.variance: 0.153656039162	Gaussian_noise.variance: 0.846344046158	
+
+White     	_0冠幅(CW)_1面积(CA)         	5		2.4124676164	1.7088007491	0.0750718436	-7.0946926661	white.variance: 0.500004888653	Gaussian_noise.variance: 0.500004888653	
+White     	_0冠幅(CW)_1面积(CA)         	10		2.5803746498	1.6170532184	0.0794836104	-14.1893853321	white.variance: 0.360748819304	Gaussian_noise.variance: 0.639252741752	
+White     	_0冠幅(CW)_1面积(CA)         	15		2.4755566954	1.6274277212	0.0808425630	-21.2840779981	white.variance: 0.292105931213	Gaussian_noise.variance: 0.707894006278	
+White     	_0冠幅(CW)_1面积(CA)         	20		2.3180016348	1.6670745334	0.0834947126	-28.3787706641	white.variance: 0.250869133336	Gaussian_noise.variance: 0.749131099713	
+White     	_0冠幅(CW)_1面积(CA)         	25		2.3488507828	1.8225088934	0.0893840356	-35.4734633301	white.variance: 0.222705139038	Gaussian_noise.variance: 0.777295093363	
+White     	_0冠幅(CW)_1面积(CA)         	30		2.3117888779	1.9052234890	0.0924139080	-42.5681559961	white.variance: 0.201993137622	Gaussian_noise.variance: 0.798007059836	
+White     	_0冠幅(CW)_1面积(CA)         	35		2.2406369143	1.8811752731	0.0915732704	-49.6628486622	white.variance: 0.185978330286	Gaussian_noise.variance: 0.814021830535	
+White     	_0冠幅(CW)_1面积(CA)         	40		2.1757109065	1.8484509280	0.0903793862	-56.7575413282	white.variance: 0.173139087639	Gaussian_noise.variance: 0.826861042157	
+White     	_0冠幅(CW)_1面积(CA)         	45		2.2069747107	1.8616843414	0.0908697581	-63.8522339942	white.variance: 0.16256042418	Gaussian_noise.variance: 0.837439680769	
+White     	_0冠幅(CW)_1面积(CA)         	52		2.2258211493	1.8148170085	0.0890792184	-73.7848037266	white.variance: 0.153656039162	Gaussian_noise.variance: 0.846344046158	
+

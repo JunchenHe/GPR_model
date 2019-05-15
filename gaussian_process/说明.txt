@@ -1,0 +1,13 @@
+本目录下有5个文件夹
+
+其中script文件夹存放脚本文件
+用来生成但一核函数，核函数相加，核函数相乘的jupyter notebook文件
+    save_errorbar用来生成errorbar_fig文件夹下的文件
+    save_add_kernel用来生成kernle_add文件夹下的文件
+    save_product_kernel用来生成kernel——prod文件夹下的文件
+    save_model(single)用来生成single_kernel文件夹下的文件
+
+errorbar_fig文件夹用来存放但一核函数的errorbar图
+kernel_add_用来存放和函数相加的拟合和预测效果，以及模型参数
+kernel_prod 用来存放核函数相乘的拟合和预测效果，以及模型参数
+single_kernel 用来存放但一核函数的拟合和预测效果，以及模型参数
